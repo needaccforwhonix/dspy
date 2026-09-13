@@ -1,0 +1,5983 @@
+[
+  {
+    "file": ".pre-commit-config.yaml",
+    "dependencies": [],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "success"
+  },
+  {
+    "file": "CONTRIBUTING.md",
+    "dependencies": [],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "failed"
+  },
+  {
+    "file": "uv.lock",
+    "dependencies": [],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "success"
+  },
+  {
+    "file": "pyproject.toml",
+    "dependencies": [
+      "wildcard"
+    ],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "failed"
+  },
+  {
+    "file": "README.md",
+    "dependencies": [],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "failed"
+  },
+  {
+    "file": "LICENSE",
+    "dependencies": [],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "failed"
+  },
+  {
+    "file": "SECURITY.md",
+    "dependencies": [],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "failed"
+  },
+  {
+    "file": ".gitignore",
+    "dependencies": [],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "failed"
+  },
+  {
+    "file": "dspy/__init__.py",
+    "dependencies": [
+      "dspy.clients",
+      "dspy.teleprompt",
+      "dspy.__metadata__",
+      "dspy.dsp.utils.settings",
+      "Evaluate",
+      "syncify",
+      "DSPY_CACHE",
+      "settings",
+      "ContextWindowExceededError",
+      "dspy.streaming.streamify",
+      "ColBERTv2",
+      "load",
+      "dspy.primitives",
+      "SandboxSerializable",
+      "streamify",
+      "dspy.signatures",
+      "dspy.predict",
+      "dspy.primitives.sandbox_serializable",
+      "dspy.utils.saving",
+      "configure_dspy_loggers",
+      "__name__",
+      "dspy.utils.exceptions",
+      "dspy.evaluate",
+      "Adapter",
+      "dspy.utils.syncify",
+      "dspy.utils.asyncify",
+      "dspy.utils.logging_utils",
+      "dspy.adapters",
+      "dspy.dsp.colbertv2",
+      "dspy.retrievers",
+      "asyncify",
+      "track_usage",
+      "dspy.utils.usage_tracker"
+    ],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "failed"
+  },
+  {
+    "file": "dspy/__metadata__.py",
+    "dependencies": [],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "failed"
+  },
+  {
+    "file": "dspy/adapters/__init__.py",
+    "dependencies": [
+      "ChatAdapter",
+      "TwoStepAdapter",
+      "XMLAdapter",
+      "dspy.adapters.chat_adapter",
+      "JSONAdapter",
+      "dspy.adapters.json_adapter",
+      "Adapter",
+      "dspy.adapters.two_step_adapter",
+      "dspy.adapters.base",
+      "dspy.adapters.types",
+      "Audio",
+      "dspy.adapters.xml_adapter"
+    ],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "failed"
+  },
+  {
+    "file": "dspy/adapters/chat_adapter.py",
+    "dependencies": [
+      "dspy.signatures.signature",
+      "JSONAdapter",
+      "re",
+      "FieldInfo",
+      "pydantic.fields",
+      "dspy.utils.callback",
+      "dspy.adapters.json_adapter",
+      "BaseLM",
+      "BaseCallback",
+      "dspy.utils.exceptions",
+      "Adapter",
+      "dspy.adapters.base",
+      "Signature",
+      "dspy.clients.base_lm",
+      "Any",
+      "typing",
+      "dspy.adapters.utils",
+      "AdapterParseError",
+      "textwrap"
+    ],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "failed"
+  },
+  {
+    "file": "dspy/adapters/two_step_adapter.py",
+    "dependencies": [
+      "ChatAdapter",
+      "dspy.signatures.signature",
+      "Any",
+      "dspy",
+      "dspy.signatures.field",
+      "dspy.adapters.chat_adapter",
+      "typing",
+      "dspy.adapters.utils",
+      "Adapter",
+      "BaseLM",
+      "dspy.adapters.base",
+      "dspy.adapters.types",
+      "ToolCalls",
+      "Signature",
+      "get_field_description_string",
+      "dspy.clients.base_lm",
+      "json_repair",
+      "InputField"
+    ],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "failed"
+  },
+  {
+    "file": "dspy/adapters/json_adapter.py",
+    "dependencies": [
+      "json",
+      "dspy.signatures.signature",
+      "pydantic",
+      "FieldInfo",
+      "pydantic.fields",
+      "json_repair",
+      "dspy.utils.callback",
+      "BaseLM",
+      "regex",
+      "ChatAdapter",
+      "BaseCallback",
+      "dspy.adapters.chat_adapter",
+      "logging",
+      "dspy.utils.exceptions",
+      "dspy.adapters.types.tool",
+      "Signature",
+      "dspy.clients.base_lm",
+      "Any",
+      "typing",
+      "dspy.adapters.utils",
+      "AdapterParseError",
+      "ToolCalls"
+    ],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "failed"
+  },
+  {
+    "file": "dspy/adapters/xml_adapter.py",
+    "dependencies": [
+      "ChatAdapter",
+      "BaseCallback",
+      "Any",
+      "dspy.signatures.signature",
+      "dspy.utils.callback",
+      "dspy.adapters.chat_adapter",
+      "typing",
+      "format_field_value",
+      "dspy.adapters.utils",
+      "dspy.utils.exceptions",
+      "re",
+      "FieldInfo",
+      "AdapterParseError",
+      "Signature",
+      "pydantic.fields",
+      "parse_value"
+    ],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "failed"
+  },
+  {
+    "file": "dspy/adapters/utils.py",
+    "dependencies": [
+      "json",
+      "Type",
+      "pydantic",
+      "FieldInfo",
+      "ast",
+      "get_dspy_field_type",
+      "pydantic.fields",
+      "json_repair",
+      "enum",
+      "dspy.adapters.types.reasoning",
+      "Code",
+      "dspy.signatures.utils",
+      "TypeAdapter",
+      "inspect",
+      "Mapping",
+      "Any",
+      "typing",
+      "dspy.adapters.types.code",
+      "Reasoning",
+      "dspy.adapters.types.base_type",
+      "types",
+      "collections.abc"
+    ],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "failed"
+  },
+  {
+    "file": "dspy/adapters/base.py",
+    "dependencies": [
+      "dspy.signatures.signature",
+      "Tool",
+      "split_message_content_for_custom_types",
+      "json_repair",
+      "History",
+      "dspy.utils.callback",
+      "dspy.adapters.types.reasoning",
+      "BaseLM",
+      "BaseCallback",
+      "Citations",
+      "logging",
+      "dspy.utils.exceptions",
+      "dspy.adapters.types.tool",
+      "Signature",
+      "dspy.clients.base_lm",
+      "Any",
+      "typing",
+      "dspy.adapters.types",
+      "AdapterParseError",
+      "Reasoning",
+      "dspy.adapters.types.base_type",
+      "dspy.experimental"
+    ],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "failed"
+  },
+  {
+    "file": "dspy/adapters/baml_adapter.py",
+    "dependencies": [
+      "dspy.signatures.signature",
+      "Any",
+      "dspy",
+      "BAMLAdapter",
+      "dspy.adapters.json_adapter",
+      "JSONAdapter",
+      "format_field_value",
+      "Literal",
+      "typing",
+      "pydantic",
+      "dspy.adapters.utils",
+      "BaseModel",
+      "baml_adapter",
+      "Signature",
+      "types",
+      "inspect"
+    ],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "failed"
+  },
+  {
+    "file": "dspy/adapters/types/tool.py",
+    "dependencies": [
+      "Type",
+      "pydantic",
+      "dspy.dsp.utils.settings",
+      "jsonschema",
+      "TYPE_CHECKING",
+      "dspy.utils.langchain_tool",
+      "settings",
+      "langchain.tools",
+      "dspy",
+      "ValidationError",
+      "dspy.utils.callback",
+      "with_callbacks",
+      "convert_mcp_tool",
+      "dspy.utils.mcp",
+      "tool",
+      "convert_langchain_tool",
+      "asyncio",
+      "inspect",
+      "mcp",
+      "typing",
+      "BaseTool",
+      "BaseModel",
+      "dspy.adapters.types.base_type"
+    ],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "failed"
+  },
+  {
+    "file": "dspy/adapters/types/base_type.py",
+    "dependencies": [
+      "json",
+      "dspy.signatures.signature",
+      "litellm",
+      "typing",
+      "pydantic",
+      "re",
+      "BaseLM",
+      "TYPE_CHECKING",
+      "Signature",
+      "dspy.clients.base_lm",
+      "json_repair",
+      "ModelResponseStream"
+    ],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "failed"
+  },
+  {
+    "file": "dspy/adapters/types/__init__.py",
+    "dependencies": [
+      "Type",
+      "Image",
+      "dspy.adapters.types.code",
+      "Code",
+      "Tool",
+      "dspy.adapters.types.history",
+      "File",
+      "dspy.adapters.types.image",
+      "dspy.adapters.types.reasoning",
+      "dspy.adapters.types.tool",
+      "dspy.adapters.types.file",
+      "Reasoning",
+      "dspy.adapters.types.audio",
+      "dspy.adapters.types.base_type",
+      "Audio",
+      "History"
+    ],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "failed"
+  },
+  {
+    "file": "dspy/adapters/types/reasoning.py",
+    "dependencies": [
+      "dspy.signatures.signature",
+      "Type",
+      "typing",
+      "pydantic",
+      "BaseLM",
+      "Signature",
+      "TYPE_CHECKING",
+      "dspy.adapters.types.base_type",
+      "dspy.clients.base_lm"
+    ],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "failed"
+  },
+  {
+    "file": "dspy/adapters/types/image.py",
+    "dependencies": [
+      "io",
+      "os",
+      "Any",
+      "Type",
+      "Image",
+      "typing",
+      "functools",
+      "pydantic",
+      "lru_cache",
+      "urlparse",
+      "base64",
+      "mimetypes",
+      "urllib.parse",
+      "warnings",
+      "PIL",
+      "dspy.adapters.types.base_type",
+      "requests"
+    ],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "failed"
+  },
+  {
+    "file": "dspy/adapters/types/file.py",
+    "dependencies": [
+      "Any",
+      "os",
+      "dspy",
+      "Type",
+      "typing",
+      "pydantic",
+      "base64",
+      "mimetypes",
+      "dspy.adapters.types.base_type"
+    ],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "failed"
+  },
+  {
+    "file": "dspy/adapters/types/history.py",
+    "dependencies": [
+      "pydantic",
+      "Any",
+      "dspy",
+      "typing"
+    ],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "failed"
+  },
+  {
+    "file": "dspy/adapters/types/document.py",
+    "dependencies": [
+      "Any",
+      "dspy",
+      "experimental",
+      "Type",
+      "typing",
+      "dspy.utils.annotation",
+      "pydantic",
+      "dspy.experimental",
+      "Signature",
+      "dspy.adapters.types.base_type",
+      "Document",
+      "dspy.signatures"
+    ],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "failed"
+  },
+  {
+    "file": "dspy/adapters/types/citation.py",
+    "dependencies": [
+      "Any",
+      "os",
+      "experimental",
+      "Type",
+      "dspy",
+      "Citations",
+      "typing",
+      "pydantic",
+      "dspy.utils.annotation",
+      "dspy.experimental",
+      "Signature",
+      "dspy.adapters.types.base_type",
+      "dspy.signatures"
+    ],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "failed"
+  },
+  {
+    "file": "dspy/adapters/types/audio.py",
+    "dependencies": [
+      "io",
+      "os",
+      "Any",
+      "Type",
+      "typing",
+      "pydantic",
+      "base64",
+      "soundfile",
+      "mimetypes",
+      "dspy.adapters.types.base_type",
+      "requests"
+    ],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "failed"
+  },
+  {
+    "file": "dspy/adapters/types/code.py",
+    "dependencies": [
+      "Any",
+      "dspy",
+      "Type",
+      "time",
+      "typing",
+      "pydantic",
+      "re",
+      "create_model",
+      "dspy.adapters.types.base_type",
+      "inspect"
+    ],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "failed"
+  },
+  {
+    "file": "dspy/teleprompt/mipro_optimizer_v2.py",
+    "dependencies": [
+      "dspy",
+      "optuna",
+      "dspy.teleprompt.teleprompt",
+      "logging",
+      "Teleprompter",
+      "typing",
+      "math",
+      "dspy.teleprompt.utils",
+      "dspy.evaluate.evaluate",
+      "GroundedProposer",
+      "Evaluate",
+      "TYPE_CHECKING",
+      "random",
+      "defaultdict",
+      "dspy.propose",
+      "collections"
+    ],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "failed"
+  },
+  {
+    "file": "dspy/teleprompt/avatar_optimizer.py",
+    "dependencies": [
+      "dspy",
+      "ThreadPoolExecutor",
+      "dspy.teleprompt.teleprompt",
+      "typing",
+      "Teleprompter",
+      "sample",
+      "ActionOutput",
+      "pydantic",
+      "BaseModel",
+      "Callable",
+      "random",
+      "copy",
+      "concurrent.futures",
+      "deepcopy",
+      "tqdm",
+      "dspy.predict.avatar"
+    ],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "failed"
+  },
+  {
+    "file": "dspy/teleprompt/__init__.py",
+    "dependencies": [
+      "dspy.teleprompt.knn_fewshot",
+      ".gepa.gepa",
+      "dspy.teleprompt.bootstrap_finetune",
+      "dspy.teleprompt.random_search",
+      "SIMBA",
+      "BootstrapFewShotWithRandomSearch",
+      "LabeledFewShot",
+      "dspy.teleprompt.vanilla",
+      "dspy.teleprompt.mipro_optimizer_v2",
+      "COPRO",
+      "MIPROv2",
+      "dspy.teleprompt.avatar_optimizer",
+      "bootstrap_trace_data",
+      "Teleprompter",
+      "dspy.teleprompt.teleprompt_optuna",
+      "BootstrapFinetune",
+      "BootstrapFewShotWithOptuna",
+      "AvatarOptimizer",
+      "dspy.teleprompt.simba",
+      "dspy.teleprompt.teleprompt",
+      "GEPA",
+      "InferRules",
+      "dspy.teleprompt.bootstrap_trace",
+      "dspy.teleprompt.ensemble",
+      "BetterTogether",
+      "Ensemble",
+      "dspy.teleprompt.copro_optimizer",
+      "dspy.teleprompt.bootstrap",
+      "dspy.teleprompt.infer_rules",
+      "dspy.teleprompt.bettertogether",
+      "KNNFewShot",
+      "BootstrapFewShot"
+    ],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "failed"
+  },
+  {
+    "file": "dspy/teleprompt/bootstrap_finetune.py",
+    "dependencies": [
+      "infer_data_format",
+      "Module",
+      "dspy.dsp.utils.settings",
+      "Predict",
+      "defaultdict",
+      "settings",
+      "dspy",
+      "bootstrap_trace_data",
+      "Example",
+      "Teleprompter",
+      "random",
+      "dspy.clients.lm",
+      "dspy.primitives.module",
+      "ChatAdapter",
+      "dspy.predict.predict",
+      "dspy.teleprompt.teleprompt",
+      "dspy.adapters.chat_adapter",
+      "logging",
+      "Adapter",
+      "dspy.teleprompt.bootstrap_trace",
+      "dspy.adapters.base",
+      "LM",
+      "dspy.clients.utils_finetune",
+      "Any",
+      "typing",
+      "dspy.primitives.example",
+      "collections"
+    ],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "failed"
+  },
+  {
+    "file": "dspy/teleprompt/bettertogether.py",
+    "dependencies": [
+      "Module",
+      "dspy.teleprompt.bootstrap_finetune",
+      "dspy.teleprompt.random_search",
+      "dspy.teleprompt",
+      "BootstrapFewShotWithRandomSearch",
+      "Evaluate",
+      "MIPROv2",
+      "dspy",
+      "Example",
+      "Teleprompter",
+      "random",
+      "eval_candidate_program",
+      "dspy.primitives.module",
+      "dspy.teleprompt.teleprompt",
+      "logging",
+      "dspy.teleprompt.utils",
+      "GEPA",
+      "dspy.evaluate",
+      "inspect",
+      "Any",
+      "typing",
+      "dspy.primitives.example"
+    ],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "failed"
+  },
+  {
+    "file": "dspy/teleprompt/simba_utils.py",
+    "dependencies": [
+      "dspy",
+      "logging",
+      "typing",
+      "dspy.adapters.utils",
+      "Callable",
+      "orjson",
+      "get_field_description_string",
+      "textwrap",
+      "InputField",
+      "dspy.signatures",
+      "inspect"
+    ],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "failed"
+  },
+  {
+    "file": "dspy/teleprompt/utils.py",
+    "dependencies": [
+      "dspy.teleprompt.bootstrap",
+      "os",
+      "dspy",
+      "logging",
+      "shutil",
+      "math",
+      "extract_symbols",
+      "sys",
+      "IPython.core.magics.code",
+      "random",
+      "BootstrapFewShot",
+      "inspect"
+    ],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "failed"
+  },
+  {
+    "file": "dspy/teleprompt/vanilla.py",
+    "dependencies": [
+      "Teleprompter",
+      "dspy.teleprompt.teleprompt",
+      "random"
+    ],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "failed"
+  },
+  {
+    "file": "dspy/teleprompt/random_search.py",
+    "dependencies": [
+      ".vanilla",
+      ".bootstrap",
+      "dspy",
+      "dspy.teleprompt.teleprompt",
+      "Teleprompter",
+      "dspy.evaluate.evaluate",
+      "Evaluate",
+      "random",
+      "LabeledFewShot",
+      "BootstrapFewShot"
+    ],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "failed"
+  },
+  {
+    "file": "dspy/teleprompt/signature_opt.py",
+    "dependencies": [
+      "COPRO",
+      ".copro_optimizer"
+    ],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "failed"
+  },
+  {
+    "file": "dspy/teleprompt/simba.py",
+    "dependencies": [
+      "import",
+      "Any",
+      "dspy",
+      "dspy.teleprompt.teleprompt",
+      "logging",
+      "annotations",
+      "Teleprompter",
+      "typing",
+      "__future__",
+      "append_a_demo",
+      "numpy",
+      "dspy.utils.lazy_import",
+      "dspy.teleprompt.simba_utils",
+      "random"
+    ],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "failed"
+  },
+  {
+    "file": "dspy/teleprompt/knn_fewshot.py",
+    "dependencies": [
+      "Any",
+      "dspy",
+      "dspy.teleprompt.teleprompt",
+      "Example",
+      "KNN",
+      "Teleprompter",
+      "SentenceTransformer",
+      "typing",
+      "dspy.primitives",
+      "dspy.clients",
+      "dspy.teleprompt",
+      "sentence_transformers",
+      "dspy.predict.knn",
+      "types",
+      "BootstrapFewShot",
+      "Embedder"
+    ],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "failed"
+  },
+  {
+    "file": "dspy/teleprompt/teleprompt.py",
+    "dependencies": [
+      "Any",
+      "dspy.primitives",
+      "Example",
+      "typing"
+    ],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "failed"
+  },
+  {
+    "file": "dspy/teleprompt/teleprompt_optuna.py",
+    "dependencies": [
+      ".bootstrap",
+      "optuna",
+      "dspy.teleprompt.teleprompt",
+      "Teleprompter",
+      "dspy.evaluate.evaluate",
+      "Evaluate",
+      "BootstrapFewShot"
+    ],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "failed"
+  },
+  {
+    "file": "dspy/teleprompt/bootstrap_trace.py",
+    "dependencies": [
+      "Any",
+      "dspy",
+      "dataclasses",
+      "logging",
+      "Example",
+      "Module",
+      "typing",
+      "dspy.evaluate.evaluate",
+      "dspy.utils.exceptions",
+      "dspy.primitives.module",
+      "AdapterParseError",
+      "Prediction",
+      "Evaluate",
+      "dataclass",
+      "dspy.primitives.example",
+      "types",
+      "dspy.primitives.prediction",
+      "MethodType"
+    ],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "failed"
+  },
+  {
+    "file": "dspy/teleprompt/bootstrap.py",
+    "dependencies": [
+      ".vanilla",
+      "dspy",
+      "dspy.teleprompt.teleprompt",
+      "logging",
+      "Teleprompter",
+      "dspy.utils.hasher",
+      "random",
+      "Hasher",
+      "tqdm",
+      "LabeledFewShot",
+      "threading"
+    ],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "failed"
+  },
+  {
+    "file": "dspy/teleprompt/grpo.py",
+    "dependencies": [
+      "XMLAdapter",
+      "Module",
+      "dspy.teleprompt.bootstrap_finetune",
+      "dspy.dsp.utils.settings",
+      "Evaluate",
+      "settings",
+      "dspy.adapters.xml_adapter",
+      "Example",
+      "random",
+      "FailedPrediction",
+      "dspy.clients.lm",
+      "Counter",
+      "dspy.primitives.module",
+      "ChatAdapter",
+      "dspy.adapters.chat_adapter",
+      "logging",
+      "Adapter",
+      "dspy.teleprompt.bootstrap_trace",
+      "dspy.adapters.base",
+      "LM",
+      "GRPOGroup",
+      "dspy.clients.utils_finetune",
+      "Any",
+      "time",
+      "typing",
+      "dspy.evaluate.evaluate",
+      "dspy.primitives.example",
+      "collections"
+    ],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "failed"
+  },
+  {
+    "file": "dspy/teleprompt/infer_rules.py",
+    "dependencies": [
+      "dspy",
+      "logging",
+      "math",
+      "dspy.evaluate.evaluate",
+      "dspy.teleprompt",
+      "Evaluate",
+      "random",
+      "BootstrapFewShot"
+    ],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "failed"
+  },
+  {
+    "file": "dspy/teleprompt/copro_optimizer.py",
+    "dependencies": [
+      "dspy",
+      "collections",
+      "dspy.teleprompt.teleprompt",
+      "logging",
+      "Teleprompter",
+      "dspy.evaluate.evaluate",
+      "Evaluate",
+      "Signature",
+      "defaultdict",
+      "dspy.signatures",
+      "statistics"
+    ],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "failed"
+  },
+  {
+    "file": "dspy/teleprompt/ensemble.py",
+    "dependencies": [
+      "Teleprompter",
+      "dspy",
+      "dspy.teleprompt.teleprompt",
+      "random"
+    ],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "failed"
+  },
+  {
+    "file": "dspy/teleprompt/gepa/__init__.py",
+    "dependencies": [
+      "dspy.teleprompt.gepa.gepa",
+      "GEPA"
+    ],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "failed"
+  },
+  {
+    "file": "dspy/teleprompt/gepa/gepa_utils.py",
+    "dependencies": [
+      "ProposalFn",
+      "Type",
+      "dspy.teleprompt",
+      "Evaluate",
+      "History",
+      "dspy",
+      "Example",
+      "dspy.primitives",
+      "gepa.strategies.instruction_proposal",
+      "random",
+      "FailedPrediction",
+      "gepa.core.adapter",
+      "ChatAdapter",
+      "dspy.adapters.chat_adapter",
+      "logging",
+      "EvaluationBatch",
+      "InstructionProposalSignature",
+      "dspy.evaluate",
+      "dspy.teleprompt.bootstrap_trace",
+      "Any",
+      "typing",
+      "dspy.adapters.types",
+      "dspy.adapters.types.base_type",
+      "gepa",
+      "bootstrap_trace"
+    ],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "failed"
+  },
+  {
+    "file": "dspy/teleprompt/gepa/instruction_proposal.py",
+    "dependencies": [
+      "Any",
+      "ProposalFn",
+      "dspy",
+      "Type",
+      "logging",
+      "typing",
+      "ReflectiveExample",
+      "dspy.teleprompt.gepa.gepa_utils",
+      "dspy.adapters.types.base_type",
+      "gepa.core.adapter"
+    ],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "failed"
+  },
+  {
+    "file": "dspy/teleprompt/gepa/gepa.py",
+    "dependencies": [
+      "ProposalFn",
+      "dspy.utils.annotation",
+      "DspyAdapter",
+      "dataclass",
+      "Example",
+      "Teleprompter",
+      "dspy.primitives",
+      "gepa.proposer.reflective_mutation.base",
+      "random",
+      "dspy.clients.lm",
+      "gepa.core.adapter",
+      "dataclasses",
+      "dspy.teleprompt.teleprompt",
+      "logging",
+      "dspy.teleprompt.gepa.gepa_utils",
+      "LM",
+      "inspect",
+      "GEPAResult",
+      "Any",
+      "experimental",
+      "typing",
+      "ReflectionComponentSelector",
+      "math",
+      "gepa"
+    ],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "failed"
+  },
+  {
+    "file": "dspy/datasets/dataset.py",
+    "dependencies": [
+      "Any",
+      "dspy",
+      "Iterable",
+      "annotations",
+      "Example",
+      "typing",
+      "__future__",
+      "uuid",
+      "dspy.dsp.utils",
+      "dotdict",
+      "random",
+      "collections.abc"
+    ],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "failed"
+  },
+  {
+    "file": "dspy/datasets/__init__.py",
+    "dependencies": [
+      "AlfWorld",
+      "dspy.datasets.alfworld",
+      "dspy.datasets.dataset",
+      "dspy.datasets.dataloader",
+      "Colors",
+      "dspy.datasets.math",
+      "dspy.datasets.colors",
+      "MATH",
+      "dspy.datasets.hotpotqa",
+      "Dataset",
+      "HotPotQA",
+      "DataLoader"
+    ],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "failed"
+  },
+  {
+    "file": "dspy/datasets/colors.py",
+    "dependencies": [
+      "Dataset",
+      "dspy.datasets.dataset",
+      "random"
+    ],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "failed"
+  },
+  {
+    "file": "dspy/datasets/hotpotqa.py",
+    "dependencies": [
+      "dspy.datasets.dataset",
+      "datasets",
+      "dspy.dsp.utils",
+      "random",
+      "Dataset",
+      "dotdict",
+      "load_dataset"
+    ],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "failed"
+  },
+  {
+    "file": "dspy/datasets/gsm8k.py",
+    "dependencies": [
+      "dspy",
+      "datasets",
+      "random",
+      "tqdm",
+      "load_dataset"
+    ],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "failed"
+  },
+  {
+    "file": "dspy/datasets/math.py",
+    "dependencies": [
+      "dspy",
+      "math_equivalence",
+      "datasets",
+      "re",
+      "random",
+      "load_dataset"
+    ],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "failed"
+  },
+  {
+    "file": "dspy/datasets/dataloader.py",
+    "dependencies": [
+      "Mapping",
+      "dspy",
+      "typing",
+      "dspy.datasets.dataset",
+      "datasets",
+      "Dataset",
+      "TYPE_CHECKING",
+      "random",
+      "pandas",
+      "load_dataset",
+      "collections.abc"
+    ],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "failed"
+  },
+  {
+    "file": "dspy/datasets/alfworld/alfworld.py",
+    "dependencies": [
+      "io",
+      "os",
+      "dspy",
+      "yaml",
+      "multiprocess",
+      "queue",
+      "redirect_stderr",
+      "alfworld.agents.environment",
+      "random",
+      "contextlib"
+    ],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "failed"
+  },
+  {
+    "file": "dspy/datasets/alfworld/__init__.py",
+    "dependencies": [
+      "AlfWorld",
+      "dspy.datasets.alfworld.alfworld"
+    ],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "failed"
+  },
+  {
+    "file": "dspy/datasets/alfworld/base_config.yml",
+    "dependencies": [],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "failed"
+  },
+  {
+    "file": "dspy/primitives/__init__.py",
+    "dependencies": [
+      "dspy.primitives.sandbox_serializable",
+      "CodeInterpreter",
+      "Example",
+      "BaseModule",
+      "Module",
+      "dspy.primitives.base_module",
+      "dspy.primitives.python_interpreter",
+      "dspy.primitives.module",
+      "SandboxSerializable",
+      "PythonInterpreter",
+      "dspy.primitives.example",
+      "dspy.primitives.prediction",
+      "dspy.primitives.code_interpreter",
+      "Completions"
+    ],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "failed"
+  },
+  {
+    "file": "dspy/primitives/code_interpreter.py",
+    "dependencies": [
+      "Any",
+      "typing"
+    ],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "failed"
+  },
+  {
+    "file": "dspy/primitives/sandbox_serializable.py",
+    "dependencies": [
+      "io",
+      "annotations",
+      "typing",
+      "abc",
+      "pydantic",
+      "dspy.primitives.repl_types",
+      "__future__",
+      "base64",
+      "REPLVariable",
+      "GetCoreSchemaHandler",
+      "FieldInfo",
+      "pydantic.fields",
+      "pydantic_core",
+      "TYPE_CHECKING",
+      "pandas",
+      "core_schema",
+      "ABC"
+    ],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "failed"
+  },
+  {
+    "file": "dspy/primitives/python_interpreter.py",
+    "dependencies": [
+      "json",
+      "Any",
+      "os",
+      "keyword",
+      "logging",
+      "subprocess",
+      "functools",
+      "PathLike",
+      "typing",
+      "asyncio",
+      "SIMPLE_TYPES",
+      "dspy.primitives.code_interpreter",
+      "threading",
+      "inspect"
+    ],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "failed"
+  },
+  {
+    "file": "dspy/primitives/runner.js",
+    "dependencies": [
+      "json",
+      "os",
+      "pyodideModule",
+      "run_sync",
+      "sys",
+      "pyodide.ffi"
+    ],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "failed"
+  },
+  {
+    "file": "dspy/primitives/repl_types.py",
+    "dependencies": [
+      "json",
+      "annotations",
+      "typing",
+      "Field",
+      "pydantic",
+      "dspy.adapters.utils",
+      "__future__",
+      "FieldInfo",
+      "serialize_for_json",
+      "TYPE_CHECKING",
+      "pydantic.fields"
+    ],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "failed"
+  },
+  {
+    "file": "dspy/primitives/base_module.py",
+    "dependencies": [
+      "dspy.predict.predict",
+      "dspy.utils.saving",
+      "get_dependency_versions",
+      "dspy",
+      "Parameter",
+      "logging",
+      "dspy.predict.parameter",
+      "Generator",
+      "copy",
+      "Path",
+      "deque",
+      "orjson",
+      "Predict",
+      "pathlib",
+      "collections",
+      "collections.abc",
+      "cloudpickle"
+    ],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "failed"
+  },
+  {
+    "file": "dspy/primitives/prediction.py",
+    "dependencies": [
+      "dspy.primitives.example",
+      "Example"
+    ],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "failed"
+  },
+  {
+    "file": "dspy/primitives/module.py",
+    "dependencies": [
+      "dspy.utils",
+      "dspy.dsp.utils.settings",
+      "Predict",
+      "dspy.predict.parallel",
+      "settings",
+      "dspy",
+      "dspy.utils.callback",
+      "BaseModule",
+      "Example",
+      "dspy.utils.inspect_history",
+      "with_callbacks",
+      "Prediction",
+      "dspy.predict.predict",
+      "logging",
+      "magicattr",
+      "dspy.primitives.prediction",
+      "inspect",
+      "Any",
+      "pretty_print_history",
+      "Parallel",
+      "typing",
+      "dspy.primitives.base_module",
+      "dspy.primitives.example",
+      "track_usage",
+      "thread_local_overrides",
+      "dspy.utils.usage_tracker"
+    ],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "failed"
+  },
+  {
+    "file": "dspy/primitives/example.py",
+    "dependencies": [
+      "pydantic",
+      "dspy",
+      "BaseModel"
+    ],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "failed"
+  },
+  {
+    "file": "dspy/streaming/__init__.py",
+    "dependencies": [
+      "dspy.streaming.streamify",
+      "dspy.streaming.streaming_listener",
+      "apply_sync_streaming",
+      "StatusMessage",
+      "StreamListener",
+      "dspy.streaming.messages"
+    ],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "failed"
+  },
+  {
+    "file": "dspy/streaming/streaming_listener.py",
+    "dependencies": [
+      "XMLAdapter",
+      "Type",
+      "annotations",
+      "JSONAdapter",
+      "Module",
+      "__future__",
+      "re",
+      "dspy.dsp.utils.settings",
+      "TYPE_CHECKING",
+      "defaultdict",
+      "Queue",
+      "settings",
+      "dspy.adapters.xml_adapter",
+      "dspy.streaming.messages",
+      "dspy.adapters.json_adapter",
+      "StreamResponse",
+      "ModelResponseStream",
+      "ChatAdapter",
+      "dspy.primitives.module",
+      "dspy.adapters.chat_adapter",
+      "queue",
+      "inspect",
+      "litellm",
+      "typing",
+      "jiter",
+      "dspy.adapters.types",
+      "collections"
+    ],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "failed"
+  },
+  {
+    "file": "dspy/streaming/streamify.py",
+    "dependencies": [
+      "Module",
+      "dspy.streaming.streaming_listener",
+      "StreamListener",
+      "dspy.dsp.utils.settings",
+      "TYPE_CHECKING",
+      "Queue",
+      "create_memory_object_stream",
+      "settings",
+      "dspy.streaming.messages",
+      "dspy",
+      "contextvars",
+      "StatusMessage",
+      "Prediction",
+      "MemoryObjectSendStream",
+      "threading",
+      "dspy.primitives.module",
+      "logging",
+      "queue",
+      "asyncio",
+      "orjson",
+      "dspy.utils.asyncify",
+      "dspy.primitives.prediction",
+      "iscoroutinefunction",
+      "typing",
+      "asyncify",
+      "anyio",
+      "anyio.streams.memory"
+    ],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "failed"
+  },
+  {
+    "file": "dspy/streaming/messages.py",
+    "dependencies": [
+      "BaseCallback",
+      "Any",
+      "dataclasses",
+      "dspy.utils.callback",
+      "typing",
+      "dspy.dsp.utils.settings",
+      "asyncio",
+      "dataclass",
+      "concurrent.futures",
+      "anyio.from_thread",
+      "settings"
+    ],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "failed"
+  },
+  {
+    "file": "dspy/signatures/__init__.py",
+    "dependencies": [
+      "dspy.signatures.signature",
+      "dspy.signatures.field",
+      "InputField"
+    ],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "failed"
+  },
+  {
+    "file": "dspy/signatures/utils.py",
+    "dependencies": [
+      "FieldInfo",
+      "typing",
+      "Literal",
+      "pydantic.fields"
+    ],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "failed"
+  },
+  {
+    "file": "dspy/signatures/field.py",
+    "dependencies": [
+      "pydantic",
+      "dspy.utils.constants",
+      "warnings",
+      "IS_TYPE_UNDEFINED"
+    ],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "failed"
+  },
+  {
+    "file": "dspy/signatures/signature.py",
+    "dependencies": [
+      "dspy.signatures.field",
+      "dspy.utils.constants",
+      "annotations",
+      "pydantic",
+      "__future__",
+      "re",
+      "FieldInfo",
+      "ast",
+      "copy",
+      "deepcopy",
+      "pydantic.fields",
+      "annotationlib",
+      "dspy",
+      "sys",
+      "InputField",
+      "logging",
+      "importlib",
+      "a",
+      "inspect",
+      "Any",
+      "typing",
+      "BaseModel",
+      "IS_TYPE_UNDEFINED",
+      "types"
+    ],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "failed"
+  },
+  {
+    "file": "dspy/clients/disk_serialization.py",
+    "dependencies": [
+      "io",
+      "Any",
+      "Disk",
+      "annotations",
+      "typing",
+      "os.path",
+      "__future__",
+      "pickle",
+      "diskcache",
+      "MODE_PICKLE",
+      "diskcache.core"
+    ],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "failed"
+  },
+  {
+    "file": "dspy/clients/provider.py",
+    "dependencies": [
+      "abstractmethod",
+      "typing",
+      "abc",
+      "TrainDataFormat",
+      "TrainingJob",
+      "Thread",
+      "Future",
+      "dspy.clients.provider",
+      "ReinforceJob",
+      "LM",
+      "Provider",
+      "concurrent.futures",
+      "TYPE_CHECKING",
+      "dspy.clients.lm",
+      "dspy.clients.utils_finetune",
+      "threading"
+    ],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "failed"
+  },
+  {
+    "file": "dspy/clients/databricks.py",
+    "dependencies": [
+      "os",
+      "foundation_model",
+      "TrainDataFormat",
+      "re",
+      "uuid",
+      "Provider",
+      "OpenAI",
+      "TYPE_CHECKING",
+      "databricks.sdk",
+      "requests",
+      "logging",
+      "orjson",
+      "dspy.clients.utils_finetune",
+      "time",
+      "typing",
+      "databricks.model_training",
+      "dspy.clients.provider",
+      "openai",
+      "WorkspaceClient"
+    ],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "failed"
+  },
+  {
+    "file": "dspy/clients/__init__.py",
+    "dependencies": [
+      "os",
+      "Provider",
+      "Path",
+      "dspy.clients._litellm",
+      "Cache",
+      "dspy",
+      "BaseLM",
+      "dspy.clients.lm",
+      "logging",
+      "dspy.clients.cache",
+      "LM",
+      "dspy.clients.base_lm",
+      "get_litellm",
+      "dspy.clients.embedding",
+      "Embedder",
+      "Any",
+      "typing",
+      "dspy.clients.provider",
+      "pathlib"
+    ],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "failed"
+  },
+  {
+    "file": "dspy/clients/_litellm.py",
+    "dependencies": [
+      "import",
+      "Any",
+      "annotations",
+      "typing",
+      "functools",
+      "__future__",
+      "sys",
+      "dspy.utils.lazy_import",
+      "types"
+    ],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "failed"
+  },
+  {
+    "file": "dspy/clients/lm.py",
+    "dependencies": [
+      "os",
+      "pydantic",
+      ".base_lm",
+      "TrainDataFormat",
+      "re",
+      "Provider",
+      "dspy.dsp.utils.settings",
+      "dspy.clients._litellm",
+      "settings",
+      "ContextWindowExceededError",
+      "dspy",
+      "dspy.utils.callback",
+      "OpenAIProvider",
+      "BaseLM",
+      "MemoryObjectSendStream",
+      "threading",
+      "BaseCallback",
+      "logging",
+      "functools",
+      "request_cache",
+      "dspy.utils.exceptions",
+      "dspy.clients.cache",
+      "get_litellm",
+      "anyio.from_thread",
+      "dspy.clients.utils_finetune",
+      "Any",
+      "dspy.clients.openai",
+      "typing",
+      "dspy.clients.provider",
+      "warnings",
+      "anyio.streams.memory"
+    ],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "failed"
+  },
+  {
+    "file": "dspy/clients/utils_finetune.py",
+    "dependencies": [
+      "DSPY_CACHEDIR",
+      "dspy",
+      "os",
+      "enum",
+      "typing",
+      "dspy.utils.hasher",
+      "Enum",
+      "Adapter",
+      "dspy.adapters.base",
+      "dspy.utils.caching",
+      "orjson",
+      "TYPE_CHECKING",
+      "Hasher"
+    ],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "failed"
+  },
+  {
+    "file": "dspy/clients/lm_local.py",
+    "dependencies": [
+      "os",
+      "socket",
+      "datasets",
+      "TrainDataFormat",
+      "Provider",
+      "TYPE_CHECKING",
+      "string",
+      "subprocess",
+      "torch",
+      "sglang",
+      "sglang.utils",
+      "random",
+      "gc",
+      "dspy.clients.lm",
+      "requests",
+      "threading",
+      "transformers",
+      "logging",
+      "SFTConfig",
+      "peft",
+      "Dataset",
+      "LM",
+      "datetime",
+      "dspy.clients.utils_finetune",
+      "time",
+      "typing",
+      "LoraConfig",
+      "dspy.clients.provider",
+      "AutoPeftModelForCausalLM",
+      "trl",
+      "terminate_process",
+      "AutoModelForCausalLM"
+    ],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "failed"
+  },
+  {
+    "file": "dspy/clients/embedding.py",
+    "dependencies": [
+      "import",
+      "Any",
+      "dspy",
+      "annotations",
+      "typing",
+      "request_cache",
+      "SentenceTransformer",
+      "__future__",
+      "numpy",
+      "dspy.clients.cache",
+      "dspy.utils.lazy_import",
+      "sentence_transformers",
+      "dspy.clients._litellm",
+      "get_litellm"
+    ],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "failed"
+  },
+  {
+    "file": "dspy/clients/base_lm.py",
+    "dependencies": [
+      "Any",
+      "pretty_print_history",
+      "dspy",
+      "dspy.utils.callback",
+      "typing",
+      "dspy.utils.inspect_history",
+      "dspy.dsp.utils",
+      "with_callbacks",
+      "uuid",
+      "openai",
+      "OpenAI",
+      "copy",
+      "datetime",
+      "settings"
+    ],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "failed"
+  },
+  {
+    "file": "dspy/clients/cache.py",
+    "dependencies": [
+      "os",
+      "FanoutCache",
+      "dspy.clients.disk_serialization",
+      "cachetools",
+      "pydantic",
+      "diskcache",
+      "hashlib",
+      "copy",
+      "sha256",
+      "LRUCache",
+      "dspy",
+      "cloudpickle",
+      "threading",
+      "logging",
+      "functools",
+      "orjson",
+      "wraps",
+      "inspect",
+      "Any",
+      "typing"
+    ],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "failed"
+  },
+  {
+    "file": "dspy/clients/openai.py",
+    "dependencies": [
+      "Any",
+      "time",
+      "typing",
+      "TrainDataFormat",
+      "dspy.clients.provider",
+      "openai",
+      "Provider",
+      "datetime",
+      "dspy.clients.utils_finetune"
+    ],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "failed"
+  },
+  {
+    "file": "dspy/propose/__init__.py",
+    "dependencies": [
+      "GroundedProposer",
+      "dspy.propose.grounded_proposer"
+    ],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "failed"
+  },
+  {
+    "file": "dspy/propose/grounded_proposer.py",
+    "dependencies": [
+      "dspy",
+      "dspy.propose.utils",
+      "get_prompt_model",
+      "dspy.teleprompt.utils",
+      "create_dataset_summary",
+      "dspy.propose.dataset_summary_generator",
+      "dspy.propose.propose_base",
+      "Proposer",
+      "random"
+    ],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "failed"
+  },
+  {
+    "file": "dspy/propose/utils.py",
+    "dependencies": [
+      "json",
+      "dspy",
+      "Parameter",
+      "dspy.predict.parameter",
+      "dspy.teleprompt.utils",
+      "extract_symbols",
+      "re",
+      "get_signature",
+      "IPython.core.magics.code",
+      "inspect"
+    ],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "failed"
+  },
+  {
+    "file": "dspy/propose/dataset_summary_generator.py",
+    "dependencies": [
+      "dspy",
+      "strip_prefix",
+      "re",
+      "dspy.propose.utils"
+    ],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "failed"
+  },
+  {
+    "file": "dspy/propose/propose_base.py",
+    "dependencies": [
+      "abc",
+      "ABC"
+    ],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "failed"
+  },
+  {
+    "file": "dspy/evaluate/__init__.py",
+    "dependencies": [
+      "dspy.evaluate.evaluate",
+      "dspy.evaluate.metrics",
+      "dspy.evaluate.auto_evaluation",
+      "Evaluate",
+      "EM",
+      "CompleteAndGrounded"
+    ],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "failed"
+  },
+  {
+    "file": "dspy/evaluate/metrics.py",
+    "dependencies": [
+      "string",
+      "dspy",
+      "unicodedata",
+      "DPR_normalize",
+      "print_message",
+      "dspy.dsp.utils",
+      "re",
+      "dspy.dsp.utils.utils",
+      "collections",
+      "Counter"
+    ],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "failed"
+  },
+  {
+    "file": "dspy/evaluate/auto_evaluation.py",
+    "dependencies": [
+      "ChainOfThought",
+      "Module",
+      "dspy.primitives",
+      "Prediction",
+      "dspy.predict.chain_of_thought",
+      "InputField",
+      "dspy.primitives.prediction",
+      "dspy.signatures"
+    ],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "failed"
+  },
+  {
+    "file": "dspy/evaluate/evaluate.py",
+    "dependencies": [
+      "json",
+      "dspy.utils.parallelizer",
+      "ParallelExecutor",
+      "TYPE_CHECKING",
+      "tqdm",
+      "dspy",
+      "dspy.utils.callback",
+      "with_callbacks",
+      "HTML",
+      "Prediction",
+      "IPython.display",
+      "logging",
+      "IPython",
+      "importlib",
+      "dspy.primitives.prediction",
+      "display",
+      "typing",
+      "csv",
+      "pandas",
+      "get_ipython",
+      "types"
+    ],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "failed"
+  },
+  {
+    "file": "dspy/experimental/__init__.py",
+    "dependencies": [
+      "dspy.adapters.types.citation",
+      "Document",
+      "Citations",
+      "dspy.adapters.types.document"
+    ],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "failed"
+  },
+  {
+    "file": "dspy/dsp/__init__.py",
+    "dependencies": [],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "failed"
+  },
+  {
+    "file": "dspy/dsp/colbertv2.py",
+    "dependencies": [
+      "QueryTokenizer",
+      "colbert",
+      "Searcher",
+      "colbert.infra",
+      "torch",
+      "requests",
+      "request_cache",
+      "dspy.clients.cache",
+      "colbert.infra.config",
+      "colbert.modeling.colbert",
+      "colbert.modeling.tokenization.doc_tokenization",
+      "from",
+      "ColBERTConfig",
+      "Any",
+      "Indexer",
+      "typing",
+      "ColBERT",
+      "dspy.dsp.utils",
+      "numpy",
+      "Run",
+      "dotdict",
+      "DocTokenizer",
+      "colbert.modeling.tokenization.query_tokenization"
+    ],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "failed"
+  },
+  {
+    "file": "dspy/dsp/utils/__init__.py",
+    "dependencies": [
+      "dspy.dsp.utils.settings",
+      "dspy.dsp.utils.utils",
+      "dspy.dsp.utils.dpr"
+    ],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "failed"
+  },
+  {
+    "file": "dspy/dsp/utils/settings.py",
+    "dependencies": [
+      "Any",
+      "dspy",
+      "logging",
+      "typing",
+      "IPython",
+      "contextvars",
+      "dspy.dsp.utils.utils",
+      "copy",
+      "asyncio",
+      "dotdict",
+      "get_ipython",
+      "contextmanager",
+      "contextlib",
+      "cloudpickle",
+      "threading"
+    ],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "failed"
+  },
+  {
+    "file": "dspy/dsp/utils/utils.py",
+    "dependencies": [
+      "os",
+      "copy",
+      "tqdm",
+      "defaultdict",
+      "datetime",
+      "collections",
+      "itertools"
+    ],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "failed"
+  },
+  {
+    "file": "dspy/dsp/utils/dpr.py",
+    "dependencies": [
+      "unicodedata",
+      "copy",
+      "logging",
+      "regex"
+    ],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "failed"
+  },
+  {
+    "file": "dspy/predict/knn.py",
+    "dependencies": [
+      "import",
+      "dspy",
+      "Example",
+      "SentenceTransformer",
+      "dspy.primitives",
+      "numpy",
+      "dspy.clients",
+      "dspy.utils.lazy_import",
+      "sentence_transformers",
+      "Embedder"
+    ],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "failed"
+  },
+  {
+    "file": "dspy/predict/__init__.py",
+    "dependencies": [
+      "dspy.predict.program_of_thought",
+      "ReAct",
+      "Predict",
+      "dspy.predict.best_of_n",
+      "dspy.predict.parallel",
+      "ChainOfThought",
+      "RLM",
+      "dspy.predict.refine",
+      "dspy.predict.code_act",
+      "dspy.predict.chain_of_thought",
+      "majority",
+      "dspy.predict.multi_chain_comparison",
+      "BestOfN",
+      "dspy.predict.predict",
+      "ProgramOfThought",
+      "dspy.predict.rlm",
+      "dspy.predict.knn",
+      "Parallel",
+      "dspy.predict.react",
+      "KNN",
+      "dspy.predict.aggregation",
+      "MultiChainComparison",
+      "CodeAct",
+      "Refine"
+    ],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "failed"
+  },
+  {
+    "file": "dspy/predict/parallel.py",
+    "dependencies": [
+      "Any",
+      "dspy",
+      "Parallel",
+      "Example",
+      "typing",
+      "dspy.utils.parallelizer",
+      "ParallelExecutor",
+      "dspy.dsp.utils.settings",
+      "dspy.primitives.example",
+      "threading",
+      "settings"
+    ],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "failed"
+  },
+  {
+    "file": "dspy/predict/program_of_thought.py",
+    "dependencies": [
+      "json",
+      "dspy.signatures.signature",
+      "dspy",
+      "logging",
+      "Module",
+      "dspy.primitives.python_interpreter",
+      "re",
+      "PythonInterpreter",
+      "Signature",
+      "FinalOutput",
+      "dspy.primitives.code_interpreter",
+      "dspy.primitives.module"
+    ],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "failed"
+  },
+  {
+    "file": "dspy/predict/predict.py",
+    "dependencies": [
+      "dspy.signatures.signature",
+      "Parameter",
+      "dspy.utils.constants",
+      "Module",
+      "pydantic",
+      "dspy.dsp.utils.settings",
+      "settings",
+      "dspy.predict.parameter",
+      "dspy.utils.callback",
+      "BaseLM",
+      "Prediction",
+      "pydantic_core",
+      "random",
+      "dspy.clients.lm",
+      "dspy.primitives.module",
+      "ChatAdapter",
+      "BaseCallback",
+      "dspy.adapters.chat_adapter",
+      "logging",
+      "LM",
+      "Signature",
+      "dspy.clients.base_lm",
+      "dspy.primitives.prediction",
+      "Any",
+      "typing",
+      "BaseModel",
+      "PydanticUndefined",
+      "IS_TYPE_UNDEFINED",
+      "types"
+    ],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "failed"
+  },
+  {
+    "file": "dspy/predict/refine.py",
+    "dependencies": [
+      ".predict",
+      "dspy.predict.predict",
+      "dspy",
+      "typing",
+      "dspy.adapters.utils",
+      "Module",
+      "Callable",
+      "Prediction",
+      "orjson",
+      "get_field_description_string",
+      "textwrap",
+      "InputField",
+      "dspy.signatures",
+      "inspect"
+    ],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "failed"
+  },
+  {
+    "file": "dspy/predict/chain_of_thought.py",
+    "dependencies": [
+      "dspy.signatures.signature",
+      "Any",
+      "dspy",
+      "typing",
+      "Module",
+      "FieldInfo",
+      "Signature",
+      "pydantic.fields",
+      "dspy.primitives.module"
+    ],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "failed"
+  },
+  {
+    "file": "dspy/predict/code_act.py",
+    "dependencies": [
+      "dspy.predict",
+      "dspy.signatures.signature",
+      "dspy",
+      "dspy.predict.react",
+      "dspy.predict.program_of_thought",
+      "logging",
+      "ReAct",
+      "typing",
+      "dspy.primitives.python_interpreter",
+      "Tool",
+      "Callable",
+      "ProgramOfThought",
+      "dspy.adapters.types.tool",
+      "PythonInterpreter",
+      "CodeAct",
+      "Signature",
+      "inspect"
+    ],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "failed"
+  },
+  {
+    "file": "dspy/predict/react.py",
+    "dependencies": [
+      "ContextWindowExceededError",
+      "dspy.signatures.signature",
+      "dspy",
+      "logging",
+      "typing",
+      "Module",
+      "dspy.utils.exceptions",
+      "Tool",
+      "dspy.adapters.types.tool",
+      "TYPE_CHECKING",
+      "Signature",
+      "traceback",
+      "ensure_signature",
+      "dspy.primitives.module"
+    ],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "failed"
+  },
+  {
+    "file": "dspy/predict/retry.py",
+    "dependencies": [
+      "dspy",
+      "copy",
+      "Predict",
+      ".predict"
+    ],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "failed"
+  },
+  {
+    "file": "dspy/predict/aggregation.py",
+    "dependencies": [
+      "dspy.primitives.prediction",
+      "normalize_text",
+      "dspy.evaluate",
+      "Completions"
+    ],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "failed"
+  },
+  {
+    "file": "dspy/predict/best_of_n.py",
+    "dependencies": [
+      "dspy.predict.predict",
+      "dspy",
+      "typing",
+      "Module",
+      "Callable"
+    ],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "failed"
+  },
+  {
+    "file": "dspy/predict/multi_chain_comparison.py",
+    "dependencies": [
+      "dspy.predict.predict",
+      "dspy.signatures.signature",
+      "Module",
+      "Predict",
+      "ensure_signature",
+      "InputField",
+      "dspy.signatures",
+      "dspy.primitives.module"
+    ],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "failed"
+  },
+  {
+    "file": "dspy/predict/parameter.py",
+    "dependencies": [],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "failed"
+  },
+  {
+    "file": "dspy/predict/rlm.py",
+    "dependencies": [
+      "dspy.signatures.signature",
+      "ThreadPoolExecutor",
+      "dspy.utils.annotation",
+      "annotations",
+      "Module",
+      "pydantic",
+      "__future__",
+      "Tool",
+      "concurrent.futures",
+      "TYPE_CHECKING",
+      "ensure_signature",
+      "SIMPLE_TYPES",
+      "contextmanager",
+      "dspy",
+      "Prediction",
+      "SandboxSerializable",
+      "threading",
+      "dspy.primitives.module",
+      "dspy.primitives.sandbox_serializable",
+      "logging",
+      "dspy.primitives.python_interpreter",
+      "dspy.primitives.repl_types",
+      "dspy.adapters.types.tool",
+      "contextlib",
+      "Signature",
+      "dspy.primitives.prediction",
+      "dspy.primitives.code_interpreter",
+      "experimental",
+      "typing",
+      "dspy.adapters.utils",
+      "base64",
+      "PythonInterpreter",
+      "REPLEntry",
+      "parse_value"
+    ],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "failed"
+  },
+  {
+    "file": "dspy/predict/avatar/signatures.py",
+    "dependencies": [
+      "Action",
+      "dspy",
+      "dspy.predict.avatar.models"
+    ],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "failed"
+  },
+  {
+    "file": "dspy/predict/avatar/__init__.py",
+    "dependencies": [
+      "dspy.predict.avatar.signatures",
+      "dspy.predict.avatar.models",
+      "dspy.predict.avatar.avatar"
+    ],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "failed"
+  },
+  {
+    "file": "dspy/predict/avatar/models.py",
+    "dependencies": [
+      "pydantic",
+      "Any",
+      "BaseModel",
+      "typing"
+    ],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "failed"
+  },
+  {
+    "file": "dspy/predict/avatar/avatar.py",
+    "dependencies": [
+      "dspy.signatures.signature",
+      "dspy.predict.avatar.signatures",
+      "dspy",
+      "dspy.predict.avatar.models",
+      "Actor",
+      "FieldInfo",
+      "Action",
+      "copy",
+      "deepcopy",
+      "pydantic.fields",
+      "ensure_signature"
+    ],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "failed"
+  },
+  {
+    "file": "dspy/retrievers/__init__.py",
+    "dependencies": [
+      "Retrieve",
+      "dspy.retrievers.embeddings",
+      "dspy.retrievers.retrieve",
+      "Embeddings"
+    ],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "failed"
+  },
+  {
+    "file": "dspy/retrievers/databricks_rm.py",
+    "dependencies": [
+      "json",
+      "Any",
+      "os",
+      "dspy",
+      "dataclasses",
+      "typing",
+      "databricks.vector_search.client",
+      "databricks.sdk",
+      "dspy.primitives.prediction",
+      "importlib.util",
+      "find_spec",
+      "Prediction",
+      "dataclass",
+      "VectorSearchClient",
+      "WorkspaceClient",
+      "mlflow",
+      "requests"
+    ],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "failed"
+  },
+  {
+    "file": "dspy/retrievers/embeddings.py",
+    "dependencies": [
+      "json",
+      "import",
+      "Any",
+      "os",
+      "dspy",
+      "annotations",
+      "typing",
+      "faiss",
+      "__future__",
+      "numpy",
+      "dspy.utils.unbatchify",
+      "dspy.utils.lazy_import",
+      "Unbatchify"
+    ],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "failed"
+  },
+  {
+    "file": "dspy/retrievers/retrieve.py",
+    "dependencies": [
+      "dspy",
+      "Parameter",
+      "dspy.predict.parameter",
+      "Iterable",
+      "dspy.utils.callback",
+      "with_callbacks",
+      "Prediction",
+      "random",
+      "collections.abc",
+      "dspy.primitives.prediction"
+    ],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "failed"
+  },
+  {
+    "file": "dspy/retrievers/weaviate_rm.py",
+    "dependencies": [
+      "dspy",
+      "weaviate",
+      "get_valid_uuid",
+      "uuid4",
+      "dspy.dsp.utils",
+      "uuid",
+      "Prediction",
+      "dotdict",
+      "dspy.primitives.prediction",
+      "weaviate.util"
+    ],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "failed"
+  },
+  {
+    "file": "dspy/utils/langchain_tool.py",
+    "dependencies": [
+      "langchain.tools",
+      "typing",
+      "BaseTool",
+      "Tool",
+      "dspy.adapters.types.tool",
+      "TYPE_CHECKING"
+    ],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "failed"
+  },
+  {
+    "file": "dspy/utils/annotation.py",
+    "dependencies": [
+      "typing",
+      "Callable",
+      "re",
+      "types",
+      "inspect"
+    ],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "failed"
+  },
+  {
+    "file": "dspy/utils/__init__.py",
+    "dependencies": [
+      "BaseCallback",
+      "pretty_print_history",
+      "os",
+      "experimental",
+      "exceptions",
+      "dspy.utils.annotation",
+      "dspy.utils.callback",
+      "dspy.utils.dummies",
+      "DummyLM",
+      "dspy.utils.inspect_history",
+      "dspy.utils.syncify",
+      "dspy.utils",
+      "StatusMessage",
+      "syncify",
+      "requests",
+      "dspy.streaming.messages"
+    ],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "failed"
+  },
+  {
+    "file": "dspy/utils/mcp.py",
+    "dependencies": [
+      "mcp",
+      "TextContent",
+      "typing",
+      "Tool",
+      "dspy.adapters.types.tool",
+      "mcp.types",
+      "TYPE_CHECKING"
+    ],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "failed"
+  },
+  {
+    "file": "dspy/utils/lazy_import.py",
+    "dependencies": [
+      "import",
+      "Any",
+      "dspy",
+      "until",
+      "importlib.metadata",
+      "typing",
+      "functools",
+      "importlib",
+      "numpy",
+      "importlib.util",
+      "sys",
+      "dspy.utils.lazy_import",
+      "helpers",
+      "happens",
+      "types",
+      "inspect"
+    ],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "failed"
+  },
+  {
+    "file": "dspy/utils/hasher.py",
+    "dependencies": [
+      "Any",
+      "typing",
+      "pickle",
+      "dumps",
+      "hashlib"
+    ],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "failed"
+  },
+  {
+    "file": "dspy/utils/syncify.py",
+    "dependencies": [
+      "typing",
+      "Module",
+      "dspy.primitives.module",
+      "nest_asyncio",
+      "asyncio",
+      "TYPE_CHECKING",
+      "types",
+      "MethodType"
+    ],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "failed"
+  },
+  {
+    "file": "dspy/utils/saving.py",
+    "dependencies": [
+      "dspy",
+      "logging",
+      "typing",
+      "Module",
+      "sys",
+      "Path",
+      "orjson",
+      "TYPE_CHECKING",
+      "pathlib",
+      "cloudpickle",
+      "dspy.primitives.module"
+    ],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "failed"
+  },
+  {
+    "file": "dspy/utils/unbatchify.py",
+    "dependencies": [
+      "Any",
+      "time",
+      "typing",
+      "Future",
+      "queue",
+      "concurrent.futures",
+      "threading"
+    ],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "failed"
+  },
+  {
+    "file": "dspy/utils/constants.py",
+    "dependencies": [],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "failed"
+  },
+  {
+    "file": "dspy/utils/logging_utils.py",
+    "dependencies": [
+      "sys",
+      "logging.config",
+      "logging"
+    ],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "failed"
+  },
+  {
+    "file": "dspy/utils/inspect_history.py",
+    "dependencies": [
+      "Any",
+      "annotations",
+      "typing",
+      "__future__",
+      "sys"
+    ],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "failed"
+  },
+  {
+    "file": "dspy/utils/exceptions.py",
+    "dependencies": [
+      "dspy.signatures.signature",
+      "Signature"
+    ],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "failed"
+  },
+  {
+    "file": "dspy/utils/dummies.py",
+    "dependencies": [
+      "import",
+      "dspy.signatures.field",
+      "annotations",
+      "__future__",
+      "OutputField",
+      "defaultdict",
+      "dspy.dsp.utils.utils",
+      "BaseLM",
+      "random",
+      "FieldInfoWithName",
+      "ChatAdapter",
+      "dspy.adapters.chat_adapter",
+      "dspy.clients.base_lm",
+      "Any",
+      "typing",
+      "numpy",
+      "dspy.utils.lazy_import",
+      "dotdict",
+      "collections"
+    ],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "failed"
+  },
+  {
+    "file": "dspy/utils/usage_tracker.py",
+    "dependencies": [
+      "Any",
+      "contextmanager",
+      "collections",
+      "typing",
+      "pydantic",
+      "BaseModel",
+      "dspy.dsp.utils.settings",
+      "defaultdict",
+      "contextlib",
+      "settings"
+    ],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "failed"
+  },
+  {
+    "file": "dspy/utils/parallelizer.py",
+    "dependencies": [
+      "signal",
+      "settings",
+      "time",
+      "logging",
+      "sys",
+      "dspy.dsp.utils.settings",
+      "copy",
+      "thread_local_overrides",
+      "FIRST_COMPLETED",
+      "tqdm",
+      "traceback",
+      "concurrent.futures",
+      "contextlib",
+      "threading"
+    ],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "failed"
+  },
+  {
+    "file": "dspy/utils/asyncify.py",
+    "dependencies": [
+      "dspy",
+      "typing",
+      "CapacityLimiter",
+      "functools",
+      "Module",
+      "anyio",
+      "dspy.dsp.utils.settings",
+      "thread_local_overrides",
+      "TYPE_CHECKING",
+      "dspy.primitives.module"
+    ],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "failed"
+  },
+  {
+    "file": "dspy/utils/caching.py",
+    "dependencies": [
+      "os",
+      "Path",
+      "pathlib"
+    ],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "failed"
+  },
+  {
+    "file": "dspy/utils/callback.py",
+    "dependencies": [
+      "ContextVar",
+      "Any",
+      "dspy",
+      "BaseCallback",
+      "dspy.utils.callback",
+      "logging",
+      "typing",
+      "functools",
+      "contextvars",
+      "uuid",
+      "inspect"
+    ],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "failed"
+  },
+  {
+    "file": "dspy/utils/magicattr.py",
+    "dependencies": [
+      "sys",
+      "ast",
+      "reduce",
+      "functools"
+    ],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "failed"
+  },
+  {
+    "file": "docs/vercel.json",
+    "dependencies": [],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "failed"
+  },
+  {
+    "file": "docs/requirements.txt",
+    "dependencies": [],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "failed"
+  },
+  {
+    "file": "docs/README.md",
+    "dependencies": [],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "failed"
+  },
+  {
+    "file": "docs/Pipfile",
+    "dependencies": [],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "failed"
+  },
+  {
+    "file": "docs/mkdocs.yml",
+    "dependencies": [],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "failed"
+  },
+  {
+    "file": "docs/Pipfile.lock",
+    "dependencies": [],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "failed"
+  },
+  {
+    "file": "docs/.gitignore",
+    "dependencies": [],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "failed"
+  },
+  {
+    "file": "docs/docs/cheatsheet.md",
+    "dependencies": [
+      "SentenceTransformer",
+      "dspy.teleprompt",
+      "SIMBA",
+      "BootstrapFewShotWithRandomSearch",
+      "Evaluate",
+      "LabeledFewShot",
+      "COPRO",
+      "MIPROv2",
+      "dspy",
+      "ChainOfThought",
+      "BootstrapFewShotWithOptuna",
+      "sentence_transformers",
+      "dspy.evaluate",
+      "asyncio",
+      "dspy.teleprompt.ensemble",
+      "Ensemble",
+      "Embedder",
+      "CodeAct",
+      "KNNFewShot",
+      "BootstrapFewShot"
+    ],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "failed"
+  },
+  {
+    "file": "docs/docs/index.md",
+    "dependencies": [
+      "dspy",
+      "Literal",
+      "typing",
+      "DataLoader",
+      "datasets",
+      "dspy.datasets",
+      "random",
+      "load_dataset",
+      "HotPotQA"
+    ],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "failed"
+  },
+  {
+    "file": "docs/docs/faqs.md",
+    "dependencies": [
+      "logging"
+    ],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "failed"
+  },
+  {
+    "file": "docs/docs/roadmap.md",
+    "dependencies": [],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "failed"
+  },
+  {
+    "file": "docs/docs/community/built-with-dspy.md",
+    "dependencies": [],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "failed"
+  },
+  {
+    "file": "docs/docs/community/how-to-contribute.md",
+    "dependencies": [],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "failed"
+  },
+  {
+    "file": "docs/docs/community/community-resources.md",
+    "dependencies": [],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "failed"
+  },
+  {
+    "file": "docs/docs/community/use-cases.md",
+    "dependencies": [],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "failed"
+  },
+  {
+    "file": "docs/docs/tutorials/index.md",
+    "dependencies": [],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "failed"
+  },
+  {
+    "file": "docs/docs/tutorials/core_development/index.md",
+    "dependencies": [],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "failed"
+  },
+  {
+    "file": "docs/docs/tutorials/customer_service_agent/index.ipynb",
+    "dependencies": [
+      "string",
+      "dspy",
+      "os",
+      "pydantic",
+      "BaseModel",
+      "random",
+      "mlflow"
+    ],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "failed"
+  },
+  {
+    "file": "docs/docs/tutorials/audio/index.ipynb",
+    "dependencies": [
+      "IPython.display",
+      "io",
+      "dspy",
+      "os",
+      "torch",
+      "dspy.datasets",
+      "base64",
+      "soundfile",
+      "openai",
+      "hashlib",
+      "OpenAI",
+      "torchaudio",
+      "random",
+      "Audio",
+      "defaultdict",
+      "DataLoader",
+      "collections"
+    ],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "failed"
+  },
+  {
+    "file": "docs/docs/tutorials/agents/index.ipynb",
+    "dependencies": [
+      "dspy",
+      "dspy.datasets",
+      "random",
+      "DataLoader",
+      "mlflow"
+    ],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "failed"
+  },
+  {
+    "file": "docs/docs/tutorials/math/index.ipynb",
+    "dependencies": [
+      "dspy.datasets",
+      "mlflow",
+      "dspy",
+      "MATH"
+    ],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "failed"
+  },
+  {
+    "file": "docs/docs/tutorials/papillon/index.md",
+    "dependencies": [],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "failed"
+  },
+  {
+    "file": "docs/docs/tutorials/optimizer_tracking/index.md",
+    "dependencies": [
+      "dspy.datasets.gsm8k",
+      "mlflow",
+      "dspy",
+      "GSM8K"
+    ],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "failed"
+  },
+  {
+    "file": "docs/docs/tutorials/gepa_trusted_monitor/index.ipynb",
+    "dependencies": [
+      "Sequence",
+      "MonitorResponse",
+      "os",
+      "ControlEvalConfig",
+      "Field",
+      "pydantic",
+      "inspect_ai.model",
+      "ensemble_monitor",
+      "plotly.express",
+      "Tool",
+      "list_eval_logs",
+      "Path",
+      "dataclass",
+      "concurrent.futures",
+      "basic_monitor",
+      "control_arena.eval",
+      "SamplesDataFrameSchema",
+      "control_arena.micro_protocol",
+      "inspect_ai.log",
+      "dspy",
+      "DataFrame",
+      "AppsTaskMetadata",
+      "AgentBuilderType",
+      "sys",
+      "trusted_monitoring",
+      "pandera.typing",
+      "random",
+      "DSPyTrace",
+      "samples_df",
+      "AppsSetting",
+      "control_arena",
+      "max_suspicion_scorer",
+      "dataclasses",
+      "control_arena.scorers",
+      "transcript",
+      "Agent",
+      "eval_set",
+      "dspy.teleprompt.gepa.gepa_utils",
+      "asyncio",
+      "control_arena.settings.apps.task.metadata",
+      "untrusted_policy",
+      "inspect_ai",
+      "control_arena.analysis",
+      "control_arena.monitor",
+      "get_dataset",
+      "typing",
+      "inspect_ai.tool",
+      "numpy",
+      "inspect_ai.agent",
+      "pathlib",
+      "pandas",
+      "control_arena.settings.apps.apps_solution_policy",
+      "control_arena.policy",
+      "control_arena.settings.apps.apps_setting"
+    ],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "failed"
+  },
+  {
+    "file": "docs/docs/tutorials/real_world_examples/index.md",
+    "dependencies": [],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "failed"
+  },
+  {
+    "file": "docs/docs/tutorials/yahoo_finance_react/index.md",
+    "dependencies": [
+      "json",
+      "dspy",
+      "yfinance",
+      "Tool",
+      "langchain_community.tools.yahoo_finance_news",
+      "dspy.adapters.types.tool",
+      "YahooFinanceNewsTool"
+    ],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "failed"
+  },
+  {
+    "file": "docs/docs/tutorials/tool_use/index.ipynb",
+    "dependencies": [
+      "dspy",
+      "random",
+      "re",
+      "dspy.utils",
+      "func_timeout",
+      "orjson",
+      "download",
+      "func_set_timeout",
+      "mlflow",
+      "inspect"
+    ],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "failed"
+  },
+  {
+    "file": "docs/docs/tutorials/dataframe_rlm/cohort_analysis/cohort_analysis_demo.ipynb",
+    "dependencies": [
+      "dspy",
+      "DataFrame",
+      "numpy",
+      "pandas",
+      "dataframe"
+    ],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "failed"
+  },
+  {
+    "file": "docs/docs/tutorials/dataframe_rlm/cohort_analysis/generate_cohort_data.py",
+    "dependencies": [
+      "random",
+      "faker",
+      "timedelta",
+      "pandas",
+      "Faker",
+      "datetime"
+    ],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "failed"
+  },
+  {
+    "file": "docs/docs/tutorials/dataframe_rlm/cohort_analysis/dataframe.py",
+    "dependencies": [
+      "Any",
+      "dspy",
+      "io",
+      "DataFrame",
+      "typing",
+      "base64",
+      "pyarrow",
+      "SandboxSerializable",
+      "pandas",
+      "dataframe"
+    ],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "failed"
+  },
+  {
+    "file": "docs/docs/tutorials/async/index.md",
+    "dependencies": [
+      "os",
+      "dspy",
+      "asyncio"
+    ],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "failed"
+  },
+  {
+    "file": "docs/docs/tutorials/llms_txt_generation/index.md",
+    "dependencies": [
+      "os",
+      "dspy",
+      "typing",
+      "List",
+      "base64",
+      "Path",
+      "pathlib",
+      "requests"
+    ],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "failed"
+  },
+  {
+    "file": "docs/docs/tutorials/conversation_history/index.md",
+    "dependencies": [
+      "dspy",
+      "os"
+    ],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "failed"
+  },
+  {
+    "file": "docs/docs/tutorials/streaming/index.md",
+    "dependencies": [
+      "os",
+      "asyncio",
+      "dspy"
+    ],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "failed"
+  },
+  {
+    "file": "docs/docs/tutorials/gepa_ai_program/index.md",
+    "dependencies": [],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "failed"
+  },
+  {
+    "file": "docs/docs/tutorials/build_ai_program/index.md",
+    "dependencies": [],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "failed"
+  },
+  {
+    "file": "docs/docs/tutorials/ai_text_game/index.md",
+    "dependencies": [
+      "json",
+      "Dict",
+      "dspy",
+      "dataclasses",
+      "Console",
+      "typing",
+      "typer",
+      "enum",
+      "Enum",
+      "rich.console",
+      "rich.panel",
+      "dataclass",
+      "Panel",
+      "random",
+      "Text",
+      "rich.text"
+    ],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "failed"
+  },
+  {
+    "file": "docs/docs/tutorials/mcp/index.md",
+    "dependencies": [
+      "FastMCP",
+      "string",
+      "mcp",
+      "ClientSession",
+      "dspy",
+      "mcp.client.stdio",
+      "pydantic",
+      "BaseModel",
+      "stdio_client",
+      "asyncio",
+      "random",
+      "mcp.server.fastmcp"
+    ],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "failed"
+  },
+  {
+    "file": "docs/docs/tutorials/cache/index.md",
+    "dependencies": [
+      "Dict",
+      "dspy",
+      "os",
+      "time",
+      "dataclasses",
+      "typing",
+      "hashlib",
+      "sha256",
+      "dataclass",
+      "orjson"
+    ],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "failed"
+  },
+  {
+    "file": "docs/docs/tutorials/games/index.ipynb",
+    "dependencies": [
+      "AlfWorld",
+      "dspy.datasets.alfworld",
+      "mlflow",
+      "dspy"
+    ],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "failed"
+  },
+  {
+    "file": "docs/docs/tutorials/observability/index.md",
+    "dependencies": [
+      "BaseCallback",
+      "dspy",
+      "os",
+      "dspy.utils.callback",
+      "TavilyClient",
+      "tavily",
+      "mlflow"
+    ],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "failed"
+  },
+  {
+    "file": "docs/docs/tutorials/rag/index.ipynb",
+    "dependencies": [
+      "SemanticF1",
+      "dspy",
+      "download",
+      "dspy.evaluate",
+      "dspy.utils",
+      "orjson",
+      "random",
+      "mlflow"
+    ],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "failed"
+  },
+  {
+    "file": "docs/docs/tutorials/rl_multihop/index.ipynb",
+    "dependencies": [
+      "dspy",
+      "random",
+      "dspy.utils",
+      "dspy.datasets",
+      "Stemmer",
+      "ArborGRPO",
+      "orjson",
+      "download",
+      "bm25s",
+      "DataLoader",
+      "arbor"
+    ],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "failed"
+  },
+  {
+    "file": "docs/docs/tutorials/output_refinement/best-of-n-and-refine.md",
+    "dependencies": [
+      "dspy"
+    ],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "failed"
+  },
+  {
+    "file": "docs/docs/tutorials/rl_papillon/index.ipynb",
+    "dependencies": [
+      "dspy",
+      "datasets",
+      "ArborGRPO",
+      "load_dataset",
+      "arbor"
+    ],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "failed"
+  },
+  {
+    "file": "docs/docs/tutorials/gepa_aime/index.ipynb",
+    "dependencies": [
+      "dspy",
+      "datasets",
+      "GEPA",
+      "random",
+      "load_dataset",
+      "mlflow"
+    ],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "failed"
+  },
+  {
+    "file": "docs/docs/tutorials/deployment/index.md",
+    "dependencies": [
+      "dspy",
+      "dspy.utils.streaming",
+      "pydantic",
+      "BaseModel",
+      "streaming_response",
+      "fastapi",
+      "mlflow",
+      "requests",
+      "FastAPI"
+    ],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "failed"
+  },
+  {
+    "file": "docs/docs/tutorials/multihop_search/index.ipynb",
+    "dependencies": [
+      "dspy",
+      "DataLoader",
+      "random",
+      "dspy.utils",
+      "dspy.datasets",
+      "Stemmer",
+      "orjson",
+      "download",
+      "bm25s",
+      "mlflow"
+    ],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "failed"
+  },
+  {
+    "file": "docs/docs/tutorials/classification_finetuning/index.ipynb",
+    "dependencies": [
+      "dspy",
+      "os",
+      "Literal",
+      "typing",
+      "datasets",
+      "dspy.clients.lm_local",
+      "dspy.datasets",
+      "random",
+      "load_dataset",
+      "DataLoader",
+      "mlflow",
+      "LocalProvider"
+    ],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "failed"
+  },
+  {
+    "file": "docs/docs/tutorials/gepa_facilitysupportanalyzer/index.ipynb",
+    "dependencies": [
+      "json",
+      "dspy",
+      "typing",
+      "List",
+      "GEPA",
+      "random",
+      "gepa.gepa_utils",
+      "mlflow",
+      "requests",
+      "find_dominator_programs"
+    ],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "failed"
+  },
+  {
+    "file": "docs/docs/tutorials/image_generation_prompting/index.ipynb",
+    "dependencies": [
+      "IPython.display",
+      "the",
+      "io",
+      "dspy",
+      "display",
+      "Image",
+      ".autonotebook",
+      "load_dotenv",
+      "BytesIO",
+      "fal_client",
+      "PIL",
+      "dotenv",
+      "tqdm",
+      "requests"
+    ],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "failed"
+  },
+  {
+    "file": "docs/docs/tutorials/classification/index.md",
+    "dependencies": [],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "failed"
+  },
+  {
+    "file": "docs/docs/tutorials/email_extraction/index.md",
+    "dependencies": [
+      "dspy",
+      "os",
+      "enum",
+      "typing",
+      "List",
+      "Enum",
+      "pydantic",
+      "BaseModel",
+      "datetime",
+      "mlflow"
+    ],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "failed"
+  },
+  {
+    "file": "docs/docs/tutorials/rl_ai_program/index.md",
+    "dependencies": [],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "failed"
+  },
+  {
+    "file": "docs/docs/tutorials/gepa_papillon/index.ipynb",
+    "dependencies": [
+      "dspy",
+      "datasets",
+      "GEPA",
+      "load_dataset",
+      "mlflow"
+    ],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "failed"
+  },
+  {
+    "file": "docs/docs/tutorials/entity_extraction/index.ipynb",
+    "dependencies": [
+      "Dict",
+      "os",
+      "dspy",
+      "typing",
+      "List",
+      "datasets",
+      "load_dataset",
+      "mlflow",
+      "tempfile"
+    ],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "failed"
+  },
+  {
+    "file": "docs/docs/tutorials/custom_module/index.ipynb",
+    "dependencies": [
+      "mlflow",
+      "os",
+      "dspy"
+    ],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "failed"
+  },
+  {
+    "file": "docs/docs/tutorials/program_of_thought/index.ipynb",
+    "dependencies": [
+      "deduplicate",
+      "dspy",
+      "dspy.dsp.utils"
+    ],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "failed"
+  },
+  {
+    "file": "docs/docs/tutorials/mem0_react_agent/index.md",
+    "dependencies": [
+      "dspy",
+      "os",
+      "time",
+      "typing",
+      "List",
+      "Memory",
+      "datetime",
+      "mem0"
+    ],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "failed"
+  },
+  {
+    "file": "docs/docs/tutorials/optimize_ai_program/index.md",
+    "dependencies": [],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "failed"
+  },
+  {
+    "file": "docs/docs/tutorials/saving/index.md",
+    "dependencies": [
+      "dspy.datasets.gsm8k",
+      "my_custom_module",
+      "dspy",
+      "GSM8K"
+    ],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "failed"
+  },
+  {
+    "file": "docs/docs/tutorials/sample_code_generation/index.md",
+    "dependencies": [
+      "json",
+      "html2text",
+      "List",
+      "bs4",
+      "dspy",
+      "fastapi.security",
+      "BeautifulSoup",
+      "urllib.parse",
+      "fastapi",
+      "requests",
+      "FastAPI",
+      "Dict",
+      "uvicorn",
+      "datetime",
+      "urljoin",
+      "time",
+      "HTTPBearer",
+      "typing",
+      "jwt"
+    ],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "failed"
+  },
+  {
+    "file": "docs/docs/production/index.md",
+    "dependencies": [],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "failed"
+  },
+  {
+    "file": "docs/docs/stylesheets/extra.css",
+    "dependencies": [],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "failed"
+  },
+  {
+    "file": "docs/docs/learn/index.md",
+    "dependencies": [],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "failed"
+  },
+  {
+    "file": "docs/docs/learn/optimization/overview.md",
+    "dependencies": [],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "failed"
+  },
+  {
+    "file": "docs/docs/learn/optimization/optimizers.md",
+    "dependencies": [
+      "dspy",
+      "Literal",
+      "typing",
+      "DataLoader",
+      "datasets",
+      "dspy.datasets",
+      "random",
+      "load_dataset",
+      "HotPotQA"
+    ],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "failed"
+  },
+  {
+    "file": "docs/docs/learn/evaluation/metrics.md",
+    "dependencies": [
+      "Evaluate",
+      "dspy.evaluate"
+    ],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "failed"
+  },
+  {
+    "file": "docs/docs/learn/evaluation/data.md",
+    "dependencies": [
+      "HF",
+      "datasets",
+      "dspy.datasets",
+      "pandas",
+      "DataLoader"
+    ],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "failed"
+  },
+  {
+    "file": "docs/docs/learn/evaluation/overview.md",
+    "dependencies": [],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "failed"
+  },
+  {
+    "file": "docs/docs/learn/programming/modules.md",
+    "dependencies": [
+      "typing",
+      "dspy",
+      "Literal"
+    ],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "failed"
+  },
+  {
+    "file": "docs/docs/learn/programming/adapters.md",
+    "dependencies": [
+      "pydantic",
+      "dspy"
+    ],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "failed"
+  },
+  {
+    "file": "docs/docs/learn/programming/tools.md",
+    "dependencies": [
+      "dspy",
+      "asyncio"
+    ],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "failed"
+  },
+  {
+    "file": "docs/docs/learn/programming/signatures.md",
+    "dependencies": [
+      "typing",
+      "Literal"
+    ],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "failed"
+  },
+  {
+    "file": "docs/docs/learn/programming/7-assertions.md",
+    "dependencies": [
+      "dspy.primitives.assertions",
+      "assert_transform_module"
+    ],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "failed"
+  },
+  {
+    "file": "docs/docs/learn/programming/mcp.md",
+    "dependencies": [
+      "mcp",
+      "ClientSession",
+      "streamablehttp_client",
+      "dspy",
+      "mcp.client.stdio",
+      "mcp.client.streamable_http",
+      "stdio_client",
+      "asyncio"
+    ],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "failed"
+  },
+  {
+    "file": "docs/docs/learn/programming/overview.md",
+    "dependencies": [],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "failed"
+  },
+  {
+    "file": "docs/docs/learn/programming/language_models.md",
+    "dependencies": [
+      "json",
+      "os",
+      "dspy"
+    ],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "failed"
+  },
+  {
+    "file": "docs/docs/js/copy-as-markdown.js",
+    "dependencies": [],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "failed"
+  },
+  {
+    "file": "docs/docs/js/runllm-widget.js",
+    "dependencies": [],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "failed"
+  },
+  {
+    "file": "docs/docs/js/tutorial-nav.js",
+    "dependencies": [],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "failed"
+  },
+  {
+    "file": "docs/docs/api/index.md",
+    "dependencies": [],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "failed"
+  },
+  {
+    "file": "docs/docs/api/adapters/XMLAdapter.md",
+    "dependencies": [],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "failed"
+  },
+  {
+    "file": "docs/docs/api/adapters/JSONAdapter.md",
+    "dependencies": [],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "failed"
+  },
+  {
+    "file": "docs/docs/api/adapters/ChatAdapter.md",
+    "dependencies": [],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "failed"
+  },
+  {
+    "file": "docs/docs/api/adapters/TwoStepAdapter.md",
+    "dependencies": [],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "failed"
+  },
+  {
+    "file": "docs/docs/api/adapters/Adapter.md",
+    "dependencies": [],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "failed"
+  },
+  {
+    "file": "docs/docs/api/primitives/Example.md",
+    "dependencies": [],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "failed"
+  },
+  {
+    "file": "docs/docs/api/primitives/Code.md",
+    "dependencies": [],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "failed"
+  },
+  {
+    "file": "docs/docs/api/primitives/ToolCalls.md",
+    "dependencies": [],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "failed"
+  },
+  {
+    "file": "docs/docs/api/primitives/Prediction.md",
+    "dependencies": [],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "failed"
+  },
+  {
+    "file": "docs/docs/api/primitives/History.md",
+    "dependencies": [],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "failed"
+  },
+  {
+    "file": "docs/docs/api/primitives/Tool.md",
+    "dependencies": [],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "failed"
+  },
+  {
+    "file": "docs/docs/api/primitives/Image.md",
+    "dependencies": [],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "failed"
+  },
+  {
+    "file": "docs/docs/api/primitives/Audio.md",
+    "dependencies": [],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "failed"
+  },
+  {
+    "file": "docs/docs/api/models/Embedder.md",
+    "dependencies": [],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "failed"
+  },
+  {
+    "file": "docs/docs/api/models/LM.md",
+    "dependencies": [],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "failed"
+  },
+  {
+    "file": "docs/docs/api/tools/ColBERTv2.md",
+    "dependencies": [],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "failed"
+  },
+  {
+    "file": "docs/docs/api/tools/Embeddings.md",
+    "dependencies": [],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "failed"
+  },
+  {
+    "file": "docs/docs/api/tools/PythonInterpreter.md",
+    "dependencies": [],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "failed"
+  },
+  {
+    "file": "docs/docs/api/optimizers/BetterTogether.md",
+    "dependencies": [],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "failed"
+  },
+  {
+    "file": "docs/docs/api/optimizers/InferRules.md",
+    "dependencies": [],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "failed"
+  },
+  {
+    "file": "docs/docs/api/optimizers/MIPROv2.md",
+    "dependencies": [
+      "MIPROv2",
+      "dspy",
+      "dspy.datasets.gsm8k",
+      "dspy.teleprompt",
+      "GSM8K"
+    ],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "failed"
+  },
+  {
+    "file": "docs/docs/api/optimizers/LabeledFewShot.md",
+    "dependencies": [],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "failed"
+  },
+  {
+    "file": "docs/docs/api/optimizers/KNNFewShot.md",
+    "dependencies": [],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "failed"
+  },
+  {
+    "file": "docs/docs/api/optimizers/SIMBA.md",
+    "dependencies": [],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "failed"
+  },
+  {
+    "file": "docs/docs/api/optimizers/Ensemble.md",
+    "dependencies": [],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "failed"
+  },
+  {
+    "file": "docs/docs/api/optimizers/COPRO.md",
+    "dependencies": [],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "failed"
+  },
+  {
+    "file": "docs/docs/api/optimizers/BootstrapFinetune.md",
+    "dependencies": [],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "failed"
+  },
+  {
+    "file": "docs/docs/api/optimizers/BootstrapFewShot.md",
+    "dependencies": [],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "failed"
+  },
+  {
+    "file": "docs/docs/api/optimizers/BootstrapFewShotWithRandomSearch.md",
+    "dependencies": [],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "failed"
+  },
+  {
+    "file": "docs/docs/api/optimizers/KNN.md",
+    "dependencies": [],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "failed"
+  },
+  {
+    "file": "docs/docs/api/optimizers/BootstrapRS.md",
+    "dependencies": [],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "failed"
+  },
+  {
+    "file": "docs/docs/api/optimizers/GEPA/overview.md",
+    "dependencies": [],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "failed"
+  },
+  {
+    "file": "docs/docs/api/optimizers/GEPA/GEPA_Advanced.md",
+    "dependencies": [
+      "dspy",
+      "ProposalFn",
+      "GEPAState",
+      "ReflectiveExample",
+      "dspy.teleprompt.gepa.instruction_proposal",
+      "dspy.teleprompt.gepa.gepa_utils",
+      "MultiModalInstructionProposer",
+      "chromadb",
+      "gepa.core.adapter"
+    ],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "failed"
+  },
+  {
+    "file": "docs/docs/api/signatures/Signature.md",
+    "dependencies": [],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "failed"
+  },
+  {
+    "file": "docs/docs/api/signatures/OutputField.md",
+    "dependencies": [],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "failed"
+  },
+  {
+    "file": "docs/docs/api/signatures/InputField.md",
+    "dependencies": [],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "failed"
+  },
+  {
+    "file": "docs/docs/api/evaluation/EvaluationResult.md",
+    "dependencies": [],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "failed"
+  },
+  {
+    "file": "docs/docs/api/evaluation/Evaluate.md",
+    "dependencies": [],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "failed"
+  },
+  {
+    "file": "docs/docs/api/evaluation/CompleteAndGrounded.md",
+    "dependencies": [],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "failed"
+  },
+  {
+    "file": "docs/docs/api/evaluation/SemanticF1.md",
+    "dependencies": [],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "failed"
+  },
+  {
+    "file": "docs/docs/api/evaluation/answer_exact_match.md",
+    "dependencies": [],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "failed"
+  },
+  {
+    "file": "docs/docs/api/evaluation/answer_passage_match.md",
+    "dependencies": [],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "failed"
+  },
+  {
+    "file": "docs/docs/api/experimental/Citations.md",
+    "dependencies": [],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "failed"
+  },
+  {
+    "file": "docs/docs/api/experimental/Document.md",
+    "dependencies": [],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "failed"
+  },
+  {
+    "file": "docs/docs/api/modules/CodeAct.md",
+    "dependencies": [
+      "dspy.predict",
+      "dspy",
+      "pydantic",
+      "BaseModel",
+      "numpy",
+      "CodeAct"
+    ],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "failed"
+  },
+  {
+    "file": "docs/docs/api/modules/Parallel.md",
+    "dependencies": [],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "failed"
+  },
+  {
+    "file": "docs/docs/api/modules/Predict.md",
+    "dependencies": [],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "failed"
+  },
+  {
+    "file": "docs/docs/api/modules/ReAct.md",
+    "dependencies": [],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "failed"
+  },
+  {
+    "file": "docs/docs/api/modules/RLM.md",
+    "dependencies": [
+      "io",
+      "dspy",
+      "re",
+      "base64",
+      "asyncio",
+      "pandas"
+    ],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "failed"
+  },
+  {
+    "file": "docs/docs/api/modules/Refine.md",
+    "dependencies": [],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "failed"
+  },
+  {
+    "file": "docs/docs/api/modules/MultiChainComparison.md",
+    "dependencies": [],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "failed"
+  },
+  {
+    "file": "docs/docs/api/modules/BestOfN.md",
+    "dependencies": [],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "failed"
+  },
+  {
+    "file": "docs/docs/api/modules/Module.md",
+    "dependencies": [],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "failed"
+  },
+  {
+    "file": "docs/docs/api/modules/ProgramOfThought.md",
+    "dependencies": [],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "failed"
+  },
+  {
+    "file": "docs/docs/api/modules/ChainOfThought.md",
+    "dependencies": [],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "failed"
+  },
+  {
+    "file": "docs/docs/api/utils/disable_litellm_logging.md",
+    "dependencies": [],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "failed"
+  },
+  {
+    "file": "docs/docs/api/utils/enable_logging.md",
+    "dependencies": [],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "failed"
+  },
+  {
+    "file": "docs/docs/api/utils/StatusMessage.md",
+    "dependencies": [],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "failed"
+  },
+  {
+    "file": "docs/docs/api/utils/StatusMessageProvider.md",
+    "dependencies": [],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "failed"
+  },
+  {
+    "file": "docs/docs/api/utils/streamify.md",
+    "dependencies": [],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "failed"
+  },
+  {
+    "file": "docs/docs/api/utils/context.md",
+    "dependencies": [
+      "dspy",
+      "asyncio"
+    ],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "failed"
+  },
+  {
+    "file": "docs/docs/api/utils/StreamListener.md",
+    "dependencies": [],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "failed"
+  },
+  {
+    "file": "docs/docs/api/utils/asyncify.md",
+    "dependencies": [],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "failed"
+  },
+  {
+    "file": "docs/docs/api/utils/disable_logging.md",
+    "dependencies": [],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "failed"
+  },
+  {
+    "file": "docs/docs/api/utils/configure_cache.md",
+    "dependencies": [],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "failed"
+  },
+  {
+    "file": "docs/docs/api/utils/load.md",
+    "dependencies": [],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "failed"
+  },
+  {
+    "file": "docs/docs/api/utils/enable_litellm_logging.md",
+    "dependencies": [],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "failed"
+  },
+  {
+    "file": "docs/docs/api/utils/inspect_history.md",
+    "dependencies": [],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "failed"
+  },
+  {
+    "file": "docs/docs/api/utils/configure.md",
+    "dependencies": [
+      "dspy"
+    ],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "failed"
+  },
+  {
+    "file": "docs/docs/static/.nojekyll",
+    "dependencies": [],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "failed"
+  },
+  {
+    "file": "docs/docs/static/img/undraw_docusaurus_mountain.svg",
+    "dependencies": [],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "failed"
+  },
+  {
+    "file": "docs/docs/static/img/undraw_docusaurus_react.svg",
+    "dependencies": [],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "failed"
+  },
+  {
+    "file": "docs/docs/static/img/undraw_docusaurus_tree.svg",
+    "dependencies": [],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "failed"
+  },
+  {
+    "file": "docs/docs/static/img/logos/dropbox.svg",
+    "dependencies": [],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "failed"
+  },
+  {
+    "file": "docs/docs/static/img/logos/replit.svg",
+    "dependencies": [],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "failed"
+  },
+  {
+    "file": "docs/docs/static/img/logos/shopify-wordmark.svg",
+    "dependencies": [],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "failed"
+  },
+  {
+    "file": "docs/docs/static/img/logos/dropbox-wordmark.svg",
+    "dependencies": [],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "failed"
+  },
+  {
+    "file": "docs/docs/static/img/logos/aws.svg",
+    "dependencies": [],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "failed"
+  },
+  {
+    "file": "docs/docs/static/img/logos/jetblue.svg",
+    "dependencies": [],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "failed"
+  },
+  {
+    "file": "docs/docs/static/img/logos/databricks-wordmark.svg",
+    "dependencies": [],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "failed"
+  },
+  {
+    "file": "docs/docs/static/img/logos/shopify.svg",
+    "dependencies": [],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "failed"
+  },
+  {
+    "file": "docs/docs/static/img/logos/databricks.svg",
+    "dependencies": [],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "failed"
+  },
+  {
+    "file": "docs/docs/deep-dive/data-handling/built-in-datasets.md",
+    "dependencies": [
+      "HotPotQA",
+      "dspy.datasets"
+    ],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "failed"
+  },
+  {
+    "file": "docs/docs/deep-dive/data-handling/loading-custom-data.md",
+    "dependencies": [
+      "Dataset",
+      "pandas",
+      "dspy.datasets.dataset"
+    ],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "failed"
+  },
+  {
+    "file": "docs/docs/deep-dive/data-handling/examples.md",
+    "dependencies": [],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "failed"
+  },
+  {
+    "file": "docs/scripts/generate_api_summary.py",
+    "dependencies": [
+      "Path",
+      "pathlib"
+    ],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "failed"
+  },
+  {
+    "file": "docs/scripts/generate_api_docs.py",
+    "dependencies": [
+      "Any",
+      "dspy",
+      "typing",
+      "pkgutil",
+      "error",
+      "importlib",
+      "Path",
+      "pathlib",
+      "inspect"
+    ],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "failed"
+  },
+  {
+    "file": "docs/overrides/home.html",
+    "dependencies": [],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "failed"
+  },
+  {
+    "file": "docs/overrides/main.html",
+    "dependencies": [],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "failed"
+  },
+  {
+    "file": "docs/overrides/partials/tabs.html",
+    "dependencies": [
+      "partials/tabs-item.html"
+    ],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "failed"
+  },
+  {
+    "file": "tests/conftest.py",
+    "dependencies": [
+      "os",
+      "dspy",
+      "litellm_test_server",
+      "DEFAULT_CONFIG",
+      "dspy.dsp.utils.settings",
+      "copy",
+      "pytest",
+      "tests.test_utils.server"
+    ],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "failed"
+  },
+  {
+    "file": "tests/__init__.py",
+    "dependencies": [],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "failed"
+  },
+  {
+    "file": "tests/README.md",
+    "dependencies": [],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "failed"
+  },
+  {
+    "file": "tests/mock_interpreter.py",
+    "dependencies": [
+      "Any",
+      "dspy.primitives.code_interpreter",
+      "typing",
+      "CodeInterpreterError"
+    ],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "failed"
+  },
+  {
+    "file": "tests/adapters/test_adapter_utils.py",
+    "dependencies": [
+      "typing",
+      "Literal",
+      "dspy.adapters.utils",
+      "pydantic",
+      "BaseModel",
+      "pytest",
+      "parse_value"
+    ],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "failed"
+  },
+  {
+    "file": "tests/adapters/test_two_step_adapter.py",
+    "dependencies": [
+      "dspy",
+      "mock",
+      "unittest",
+      "pytest"
+    ],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "failed"
+  },
+  {
+    "file": "tests/adapters/test_base_type.py",
+    "dependencies": [
+      "pydantic",
+      "dspy"
+    ],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "failed"
+  },
+  {
+    "file": "tests/adapters/test_xml_adapter.py",
+    "dependencies": [
+      "FieldInfoWithName",
+      "json",
+      "dspy",
+      "mock",
+      "XMLAdapter",
+      "unittest",
+      "litellm",
+      "dspy.adapters.chat_adapter",
+      "pydantic",
+      "sys",
+      "Choices",
+      "pytest",
+      "dspy.adapters.xml_adapter"
+    ],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "failed"
+  },
+  {
+    "file": "tests/adapters/test_tool.py",
+    "dependencies": [
+      "Any",
+      "dspy",
+      "typing",
+      "pydantic",
+      "BaseModel",
+      "Tool",
+      "dspy.adapters.types.tool",
+      "asyncio",
+      "pytest"
+    ],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "failed"
+  },
+  {
+    "file": "tests/adapters/test_chat_adapter.py",
+    "dependencies": [
+      "dspy",
+      "mock",
+      "Citations",
+      "Literal",
+      "typing",
+      "unittest",
+      "pydantic",
+      "dspy.utils.exceptions",
+      "dspy.experimental",
+      "ChatCompletionMessageToolCall",
+      "AdapterParseError",
+      "pytest",
+      "litellm.utils"
+    ],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "failed"
+  },
+  {
+    "file": "tests/adapters/test_baml_adapter.py",
+    "dependencies": [
+      "dspy.adapters.baml_adapter",
+      "dspy",
+      "mock",
+      "COMMENT_SYMBOL",
+      "Literal",
+      "typing",
+      "unittest",
+      "pydantic",
+      "litellm",
+      "Choices",
+      "pytest",
+      "ModelResponse",
+      "litellm.files.main"
+    ],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "failed"
+  },
+  {
+    "file": "tests/adapters/test_reasoning.py",
+    "dependencies": [
+      "DummyLM",
+      "dspy",
+      "dspy.utils",
+      "pytest"
+    ],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "failed"
+  },
+  {
+    "file": "tests/adapters/test_audio.py",
+    "dependencies": [
+      "_normalize_audio_format",
+      "dspy.adapters.types.audio",
+      "pytest"
+    ],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "failed"
+  },
+  {
+    "file": "tests/adapters/test_json_adapter.py",
+    "dependencies": [
+      "dspy",
+      "mock",
+      "unittest",
+      "pydantic",
+      "litellm.types.llms.openai",
+      "openai.types.responses",
+      "ResponseAPIUsage",
+      "ChatCompletionMessageToolCall",
+      "ResponseOutputMessage",
+      "Choices",
+      "pytest",
+      "litellm.utils"
+    ],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "failed"
+  },
+  {
+    "file": "tests/adapters/test_citation.py",
+    "dependencies": [
+      "ChatAdapter",
+      "dspy.signatures.signature",
+      "dspy",
+      "Citations",
+      "dspy.adapters.chat_adapter",
+      "MagicMock",
+      "pydantic",
+      "dspy.experimental",
+      "unittest.mock",
+      "Signature",
+      "pytest"
+    ],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "failed"
+  },
+  {
+    "file": "tests/adapters/test_document.py",
+    "dependencies": [
+      "dspy.experimental",
+      "pydantic",
+      "Document",
+      "pytest"
+    ],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "failed"
+  },
+  {
+    "file": "tests/adapters/test_code.py",
+    "dependencies": [
+      "pytest",
+      "pydantic",
+      "dspy",
+      "inspect"
+    ],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "failed"
+  },
+  {
+    "file": "tests/teleprompt/test_finetune.py",
+    "dependencies": [],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "failed"
+  },
+  {
+    "file": "tests/teleprompt/test_grpo.py",
+    "dependencies": [
+      "dspy.teleprompt.grpo",
+      "collections",
+      "GRPO",
+      "Counter"
+    ],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "failed"
+  },
+  {
+    "file": "tests/teleprompt/test_bootstrap.py",
+    "dependencies": [
+      "dspy.predict",
+      "dspy.utils.dummies",
+      "dspy",
+      "Example",
+      "DummyLM",
+      "dspy.teleprompt",
+      "Predict",
+      "pytest",
+      "BootstrapFewShot"
+    ],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "failed"
+  },
+  {
+    "file": "tests/teleprompt/test_random_search.py",
+    "dependencies": [
+      "dspy.predict",
+      "dspy.utils.dummies",
+      "dspy",
+      "Example",
+      "DummyLM",
+      "dspy.teleprompt",
+      "BootstrapFewShotWithRandomSearch",
+      "Predict"
+    ],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "failed"
+  },
+  {
+    "file": "tests/teleprompt/test_ensemble.py",
+    "dependencies": [
+      "dspy.teleprompt",
+      "dspy",
+      "Ensemble",
+      "pytest"
+    ],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "failed"
+  },
+  {
+    "file": "tests/teleprompt/test_knn_fewshot.py",
+    "dependencies": [
+      "dspy.utils.dummies",
+      "dspy",
+      "dspy.teleprompt.knn_fewshot",
+      "DummyLM",
+      "pytest",
+      "KNNFewShot"
+    ],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "failed"
+  },
+  {
+    "file": "tests/teleprompt/gepa_dummy_lm_custom_component_selector_custom_instruction_proposer.json",
+    "dependencies": [],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "failed"
+  },
+  {
+    "file": "tests/teleprompt/test_bootstrap_trace.py",
+    "dependencies": [
+      "Any",
+      "dspy",
+      "mock",
+      "litellm",
+      "Example",
+      "typing",
+      "dspy.teleprompt.bootstrap_trace",
+      "Choices",
+      "dspy.teleprompt",
+      "dspy.primitives.example",
+      "unittest",
+      "FailedPrediction",
+      "bootstrap_trace"
+    ],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "failed"
+  },
+  {
+    "file": "tests/teleprompt/test_utils.py",
+    "dependencies": [
+      "dspy.utils.dummies",
+      "dspy",
+      "dspy.teleprompt.utils",
+      "DummyLM",
+      "create_n_fewshot_demo_sets",
+      "unittest.mock",
+      "Mock"
+    ],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "failed"
+  },
+  {
+    "file": "tests/teleprompt/test_teleprompt.py",
+    "dependencies": [
+      "dspy.teleprompt.teleprompt",
+      "Teleprompter"
+    ],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "failed"
+  },
+  {
+    "file": "tests/teleprompt/test_gepa_instruction_proposer.py",
+    "dependencies": [
+      "dspy.utils.dummies",
+      "Any",
+      "dspy",
+      "dataclasses",
+      "logging",
+      "typing",
+      "DummyLM",
+      "instruction_proposal",
+      "dataclass",
+      "pytest",
+      "dspy.teleprompt.gepa"
+    ],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "failed"
+  },
+  {
+    "file": "tests/teleprompt/test_bootstrap_finetune.py",
+    "dependencies": [
+      "dspy.predict",
+      "dspy.utils.dummies",
+      "dspy",
+      "Example",
+      "DummyLM",
+      "BootstrapFinetune",
+      "unittest.mock",
+      "dspy.teleprompt",
+      "Predict",
+      "patch"
+    ],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "failed"
+  },
+  {
+    "file": "tests/teleprompt/test_copro_optimizer.py",
+    "dependencies": [
+      "dspy.utils.dummies",
+      "dspy",
+      "Example",
+      "DummyLM",
+      "dspy.teleprompt.signature_opt",
+      "COPRO"
+    ],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "failed"
+  },
+  {
+    "file": "tests/teleprompt/gepa_dummy_lm.json",
+    "dependencies": [],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "failed"
+  },
+  {
+    "file": "tests/teleprompt/test_gepa.py",
+    "dependencies": [
+      "json",
+      "dspy.teleprompt.gepa.gepa",
+      "DummyLM",
+      "dspy.clients",
+      "dspy.teleprompt",
+      "Predict",
+      "dspy.utils.dummies",
+      "dspy",
+      "mock",
+      "Example",
+      "instruction_proposal",
+      "unittest",
+      "random",
+      "threading",
+      "dspy.predict",
+      "gepa_utils",
+      "Any",
+      "typing",
+      "DspyGEPAResult",
+      "pytest",
+      "dspy.teleprompt.gepa",
+      "bootstrap_trace"
+    ],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "failed"
+  },
+  {
+    "file": "tests/teleprompt/test_bettertogether.py",
+    "dependencies": [
+      "dspy.predict",
+      "dspy.utils.dummies",
+      "dspy",
+      "dspy.teleprompt.teleprompt",
+      "Example",
+      "Teleprompter",
+      "DummyLM",
+      "unittest.mock",
+      "dspy.teleprompt",
+      "Mock",
+      "Predict",
+      "pytest",
+      "BetterTogether"
+    ],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "failed"
+  },
+  {
+    "file": "tests/datasets/test_dataset.py",
+    "dependencies": [
+      "dspy",
+      "Example",
+      "dspy.datasets.dataset",
+      "uuid",
+      "Dataset",
+      "pandas",
+      "pytest",
+      "tempfile"
+    ],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "failed"
+  },
+  {
+    "file": "tests/primitives/test_base_module.py",
+    "dependencies": [
+      "the",
+      "os",
+      "DummyLM",
+      "patch",
+      "custom_module",
+      "dspy.utils.dummies",
+      "dspy",
+      "logger",
+      "unittest.mock",
+      "sys",
+      "Prediction",
+      "threading",
+      "logging",
+      "litellm.types.utils",
+      "Usage",
+      "asyncio",
+      "datetime",
+      "dspy.primitives.prediction",
+      "litellm",
+      "dspy.primitives.base_module",
+      "Choices",
+      "pytest"
+    ],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "failed"
+  },
+  {
+    "file": "tests/primitives/test_module.py",
+    "dependencies": [
+      "json",
+      "dspy",
+      "Example",
+      "Module",
+      "DummyLM",
+      "dspy.utils",
+      "dspy.primitives.example",
+      "Path",
+      "pathlib",
+      "pytest",
+      "tempfile",
+      "dspy.primitives.module"
+    ],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "failed"
+  },
+  {
+    "file": "tests/primitives/test_python_interpreter.py",
+    "dependencies": [
+      "os",
+      "js",
+      "math",
+      "dspy.primitives.python_interpreter",
+      "random",
+      "and",
+      "CodeInterpreterError",
+      "asyncio",
+      "PythonInterpreter",
+      "pytest",
+      "dspy.primitives.code_interpreter",
+      "LARGE_VAR_THRESHOLD"
+    ],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "failed"
+  },
+  {
+    "file": "tests/primitives/test_example.py",
+    "dependencies": [
+      "json",
+      "dspy",
+      "Example",
+      "pytest"
+    ],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "failed"
+  },
+  {
+    "file": "tests/primitives/test_sandbox_serializable.py",
+    "dependencies": [
+      "json",
+      "dspy.primitives.sandbox_serializable",
+      "dspy",
+      "dspy.primitives.repl_types",
+      "REPLVariable",
+      "SandboxSerializable",
+      "pytest"
+    ],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "failed"
+  },
+  {
+    "file": "tests/primitives/resources/saved_program.json",
+    "dependencies": [],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "failed"
+  },
+  {
+    "file": "tests/metadata/test_metadata.py",
+    "dependencies": [
+      "dspy",
+      "re"
+    ],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "failed"
+  },
+  {
+    "file": "tests/reliability/conftest.py",
+    "dependencies": [
+      "..reliability.utils",
+      "os",
+      "dspy",
+      "..conftest",
+      "get_adapter",
+      "pytest",
+      "clear_settings"
+    ],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "failed"
+  },
+  {
+    "file": "tests/reliability/__init__.py",
+    "dependencies": [],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "failed"
+  },
+  {
+    "file": "tests/reliability/reliability_conf.yaml",
+    "dependencies": [],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "failed"
+  },
+  {
+    "file": "tests/reliability/README.md",
+    "dependencies": [],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "failed"
+  },
+  {
+    "file": "tests/reliability/utils.py",
+    "dependencies": [
+      "Any",
+      "os",
+      "dspy",
+      "yaml",
+      "typing",
+      "functools",
+      "pydantic",
+      "lru_cache",
+      "pytest",
+      "contextmanager",
+      "contextlib"
+    ],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "failed"
+  },
+  {
+    "file": "tests/reliability/test_generated.py",
+    "dependencies": [
+      "os",
+      "load_generated_cases",
+      "tests.reliability.generate.utils",
+      "pytest"
+    ],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "failed"
+  },
+  {
+    "file": "tests/reliability/test_pydantic_models.py",
+    "dependencies": [
+      "Any",
+      "dspy",
+      "enum",
+      "typing",
+      "Enum",
+      "pydantic",
+      "pytest",
+      "tests.reliability.utils",
+      "assert_program_output_correct"
+    ],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "failed"
+  },
+  {
+    "file": "tests/reliability/generate/__main__.py",
+    "dependencies": [
+      "generate_test_cases",
+      "argparse",
+      "tests.reliability.generate"
+    ],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "failed"
+  },
+  {
+    "file": "tests/reliability/generate/__init__.py",
+    "dependencies": [
+      "os",
+      "tests.reliability.generate.utils",
+      "typing",
+      "List"
+    ],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "failed"
+  },
+  {
+    "file": "tests/reliability/generate/utils.py",
+    "dependencies": [
+      "json",
+      "os",
+      "annotations",
+      "pydantic",
+      "__future__",
+      "re",
+      "dataclass",
+      "tests.reliability.utils",
+      "contextmanager",
+      "assert_program_output_correct",
+      "dspy",
+      "sys",
+      "random",
+      "tempfile",
+      "dataclasses",
+      "shutil",
+      "functools",
+      "InputFileType",
+      "wraps",
+      "Any",
+      "typing",
+      "importlib.util",
+      "pathlib",
+      "contextlib",
+      "datamodel_code_generator"
+    ],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "failed"
+  },
+  {
+    "file": "tests/reliability/complex_types/generated/test_nesting_2/schema.json",
+    "dependencies": [],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "failed"
+  },
+  {
+    "file": "tests/reliability/complex_types/generated/test_nesting_2/program.py",
+    "dependencies": [
+      "pydantic",
+      "datetime",
+      "BaseModel",
+      "dspy"
+    ],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "failed"
+  },
+  {
+    "file": "tests/reliability/complex_types/generated/test_nesting_2/inputs/input1.json",
+    "dependencies": [],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "failed"
+  },
+  {
+    "file": "tests/reliability/complex_types/generated/test_many_types_1/schema.json",
+    "dependencies": [],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "failed"
+  },
+  {
+    "file": "tests/reliability/complex_types/generated/test_many_types_1/program.py",
+    "dependencies": [
+      "dspy",
+      "enum",
+      "typing",
+      "List",
+      "Enum",
+      "pydantic",
+      "BaseModel",
+      "datetime"
+    ],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "failed"
+  },
+  {
+    "file": "tests/reliability/complex_types/generated/test_many_types_1/inputs/input2.json",
+    "dependencies": [],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "failed"
+  },
+  {
+    "file": "tests/reliability/complex_types/generated/test_many_types_1/inputs/input1.json",
+    "dependencies": [],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "failed"
+  },
+  {
+    "file": "tests/reliability/complex_types/generated/test_nesting_1/schema.json",
+    "dependencies": [],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "failed"
+  },
+  {
+    "file": "tests/reliability/complex_types/generated/test_nesting_1/program.py",
+    "dependencies": [
+      "dspy",
+      "typing",
+      "List",
+      "pydantic",
+      "BaseModel"
+    ],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "failed"
+  },
+  {
+    "file": "tests/reliability/complex_types/generated/test_nesting_1/inputs/input2.json",
+    "dependencies": [],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "failed"
+  },
+  {
+    "file": "tests/reliability/complex_types/generated/test_nesting_1/inputs/input1.json",
+    "dependencies": [],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "failed"
+  },
+  {
+    "file": "tests/reliability/input_formats/generated/test_markdown_1/schema.json",
+    "dependencies": [],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "failed"
+  },
+  {
+    "file": "tests/reliability/input_formats/generated/test_markdown_1/program.py",
+    "dependencies": [
+      "pydantic",
+      "dspy",
+      "BaseModel"
+    ],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "failed"
+  },
+  {
+    "file": "tests/reliability/input_formats/generated/test_markdown_1/inputs/input2.json",
+    "dependencies": [],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "failed"
+  },
+  {
+    "file": "tests/reliability/input_formats/generated/test_markdown_1/inputs/input1.json",
+    "dependencies": [],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "failed"
+  },
+  {
+    "file": "tests/docs/test_mkdocs_links.py",
+    "dependencies": [
+      "os"
+    ],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "failed"
+  },
+  {
+    "file": "tests/streaming/test_streaming.py",
+    "dependencies": [
+      "Type",
+      "pydantic",
+      "dataclass",
+      "dspy",
+      "mock",
+      "dspy.streaming",
+      "unittest.mock",
+      "StatusMessage",
+      "unittest",
+      "Citations",
+      "dataclasses",
+      "Delta",
+      "litellm.types.utils",
+      "asyncio",
+      "anyio.from_thread",
+      "AsyncMock",
+      "time",
+      "pytest",
+      "dspy.adapters.types",
+      "dspy.experimental"
+    ],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "failed"
+  },
+  {
+    "file": "tests/examples/test_baleen.py",
+    "dependencies": [
+      "dspy.teleprompt.bootstrap",
+      "dspy",
+      "deduplicate",
+      "dspy.evaluate.evaluate",
+      "dspy.dsp.utils",
+      "dspy.evaluate",
+      "dspy.datasets",
+      "Evaluate",
+      "HotPotQA",
+      "BootstrapFewShot"
+    ],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "failed"
+  },
+  {
+    "file": "tests/signatures/test_custom_types.py",
+    "dependencies": [
+      "pydantic",
+      "dspy",
+      "Signature",
+      "pytest"
+    ],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "failed"
+  },
+  {
+    "file": "tests/signatures/test_adapter_file.py",
+    "dependencies": [
+      "dspy.utils.dummies",
+      "os",
+      "dspy",
+      "pydantic",
+      "DummyLM",
+      "encode_file_to_dict",
+      "dspy.adapters.types.file",
+      "pytest",
+      "tempfile"
+    ],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "failed"
+  },
+  {
+    "file": "tests/signatures/test_adapter_image.py",
+    "dependencies": [
+      "dspy.utils.dummies",
+      "io",
+      "os",
+      "dspy",
+      "Image",
+      "pydantic",
+      "BytesIO",
+      "encode_image",
+      "DummyLM",
+      "dspy.adapters.types.image",
+      "PIL",
+      "pytest",
+      "requests",
+      "tempfile"
+    ],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "failed"
+  },
+  {
+    "file": "tests/signatures/test_signature.py",
+    "dependencies": [
+      "dspy.utils.dummies",
+      "Any",
+      "dspy",
+      "typing",
+      "pydantic",
+      "DummyLM",
+      "pickle",
+      "Path",
+      "pathlib",
+      "pytest",
+      "types",
+      "InputField",
+      "cloudpickle",
+      "UnionType"
+    ],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "failed"
+  },
+  {
+    "file": "tests/clients/test_inspect_global_history.py",
+    "dependencies": [
+      "dspy.utils.dummies",
+      "dspy",
+      "GLOBAL_HISTORY",
+      "DummyLM",
+      "dspy.clients.base_lm",
+      "pytest"
+    ],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "failed"
+  },
+  {
+    "file": "tests/clients/test_lm.py",
+    "dependencies": [
+      "json",
+      "RateLimitError",
+      "pydantic",
+      "openai.types.responses",
+      "_convert_chat_request_to_responses_request",
+      "Path",
+      "patch",
+      "_get_stream_completion_fn",
+      "dspy",
+      "mock",
+      "unittest.mock",
+      "ResponseOutputMessage",
+      "unittest",
+      "dspy.clients.lm",
+      "tempfile",
+      "Summary",
+      "openai.types.responses.response_reasoning_item",
+      "time",
+      "litellm",
+      "litellm.types.llms.openai",
+      "ResponseAPIUsage",
+      "Choices",
+      "openai",
+      "warnings",
+      "track_usage",
+      "pathlib",
+      "pytest",
+      "litellm.utils",
+      "dspy.utils.usage_tracker"
+    ],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "failed"
+  },
+  {
+    "file": "tests/clients/test_cache.py",
+    "dependencies": [
+      "os",
+      "FanoutCache",
+      "cachetools",
+      "_get_dspy_cache",
+      "pydantic",
+      "sqlite3",
+      "dspy.clients",
+      "diskcache",
+      "dataclass",
+      "patch",
+      "LRUCache",
+      "Cache",
+      "dspy",
+      "unittest.mock",
+      "dataclasses",
+      "request_cache",
+      "dspy.clients.cache",
+      "ModelResponse",
+      "litellm",
+      "pytest"
+    ],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "failed"
+  },
+  {
+    "file": "tests/clients/test_embedding.py",
+    "dependencies": [
+      "dspy",
+      "MagicMock",
+      "numpy",
+      "unittest.mock",
+      "pytest",
+      "dspy.clients.embedding",
+      "Embedder"
+    ],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "failed"
+  },
+  {
+    "file": "tests/clients/test_lm_local.py",
+    "dependencies": [
+      "mock",
+      "dspy.clients.lm_local",
+      "unittest.mock",
+      "patch",
+      "unittest",
+      "LocalProvider"
+    ],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "failed"
+  },
+  {
+    "file": "tests/clients/test_databricks.py",
+    "dependencies": [
+      "databricks.sdk",
+      "dspy",
+      "pytest",
+      "dspy.clients.databricks",
+      "WorkspaceClient"
+    ],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "failed"
+  },
+  {
+    "file": "tests/clients/test_disk_serialization.py",
+    "dependencies": [
+      "io",
+      "dataclasses",
+      "dspy.clients.disk_serialization",
+      "litellm.types.utils",
+      "pydantic",
+      "litellm.types.llms.openai",
+      "openai.types.responses",
+      "numpy",
+      "pickle",
+      "diskcache",
+      "ResponseAPIUsage",
+      "ResponseOutputMessage",
+      "dataclass",
+      "pytest",
+      "EmbeddingResponse"
+    ],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "failed"
+  },
+  {
+    "file": "tests/clients/test_lazy_litellm_import.py",
+    "dependencies": [
+      "dspy",
+      "importlib.util",
+      "sys",
+      "dspy.clients._litellm",
+      "pytest",
+      "get_litellm"
+    ],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "failed"
+  },
+  {
+    "file": "tests/propose/test_grounded_proposer.py",
+    "dependencies": [
+      "dspy.predict",
+      "dspy.utils.dummies",
+      "dspy",
+      "dspy.propose.grounded_proposer",
+      "DummyLM",
+      "GroundedProposer",
+      "Predict",
+      "pytest"
+    ],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "failed"
+  },
+  {
+    "file": "tests/evaluate/test_evaluate.py",
+    "dependencies": [
+      "json",
+      "os",
+      "DummyLM",
+      "Evaluate",
+      "patch",
+      "Predict",
+      "dspy.utils.dummies",
+      "dspy",
+      "dspy.utils.callback",
+      "unittest.mock",
+      "threading",
+      "tempfile",
+      "dspy.predict",
+      "BaseCallback",
+      "signal",
+      "time",
+      "dspy.evaluate.evaluate",
+      "dspy.evaluate.metrics",
+      "pytest",
+      "csv",
+      "pandas",
+      "answer_exact_match"
+    ],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "failed"
+  },
+  {
+    "file": "tests/evaluate/test_metrics.py",
+    "dependencies": [
+      "dspy.predict",
+      "dspy",
+      "dspy.evaluate.metrics",
+      "Predict",
+      "answer_exact_match"
+    ],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "failed"
+  },
+  {
+    "file": "tests/evaluate/test_auto_evaluation.py",
+    "dependencies": [
+      "dspy.utils.dummies",
+      "dspy",
+      "DummyLM",
+      "dspy.evaluate.auto_evaluation",
+      "Prediction",
+      "dspy.primitives.prediction",
+      "CompleteAndGrounded"
+    ],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "failed"
+  },
+  {
+    "file": "tests/test_utils/__init__.py",
+    "dependencies": [],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "failed"
+  },
+  {
+    "file": "tests/test_utils/server/__init__.py",
+    "dependencies": [
+      "json",
+      "LITELLM_TEST_SERVER_LOG_FILE_PATH_ENV_VAR",
+      "Any",
+      "os",
+      "time",
+      "subprocess",
+      "typing",
+      "tests.test_utils.server.litellm_server",
+      "socket",
+      "sys",
+      "pytest",
+      "tempfile"
+    ],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "failed"
+  },
+  {
+    "file": "tests/test_utils/server/litellm_server_config.yaml",
+    "dependencies": [],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "failed"
+  },
+  {
+    "file": "tests/test_utils/server/litellm_server.py",
+    "dependencies": [
+      "json",
+      "os",
+      "litellm",
+      "typing",
+      "litellm.types.utils",
+      "CustomLLM",
+      "GenericStreamingChunk",
+      "AsyncIterator"
+    ],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "failed"
+  },
+  {
+    "file": "tests/callback/test_callback.py",
+    "dependencies": [
+      "dspy.utils.dummies",
+      "dspy",
+      "dspy.utils.callback",
+      "time",
+      "ACTIVE_CALL_ID",
+      "DummyLM",
+      "pytest"
+    ],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "failed"
+  },
+  {
+    "file": "tests/predict/test_retry.py",
+    "dependencies": [
+      "dspy.primitives.assertions",
+      "dspy",
+      "functools",
+      "pydantic",
+      "DummyLM",
+      "dspy.utils",
+      "assert_transform_module"
+    ],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "failed"
+  },
+  {
+    "file": "tests/predict/test_multi_chain_comparison.py",
+    "dependencies": [
+      "dspy.utils.dummies",
+      "DummyLM",
+      "dspy"
+    ],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "failed"
+  },
+  {
+    "file": "tests/predict/test_program_of_thought.py",
+    "dependencies": [
+      "dspy",
+      "DummyLM",
+      "dspy.utils",
+      "unittest.mock",
+      "ProgramOfThought",
+      "patch",
+      "pytest"
+    ],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "failed"
+  },
+  {
+    "file": "tests/predict/test_parallel.py",
+    "dependencies": [
+      "dspy.utils.dummies",
+      "DummyLM",
+      "dspy"
+    ],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "failed"
+  },
+  {
+    "file": "tests/predict/test_aggregation.py",
+    "dependencies": [
+      "dspy.predict.aggregation",
+      "dspy.evaluate",
+      "normalize_text",
+      "dspy.primitives.prediction",
+      "majority",
+      "Completions"
+    ],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "failed"
+  },
+  {
+    "file": "tests/predict/test_chain_of_thought.py",
+    "dependencies": [
+      "dspy",
+      "mock",
+      "ChainOfThought",
+      "unittest",
+      "DummyLM",
+      "dspy.utils",
+      "Choices",
+      "pytest",
+      "litellm.utils"
+    ],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "failed"
+  },
+  {
+    "file": "tests/predict/test_code_act.py",
+    "dependencies": [
+      "dspy.predict",
+      "dspy",
+      "DummyLM",
+      "dspy.utils",
+      "CodeAct",
+      "Signature",
+      "pytest"
+    ],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "failed"
+  },
+  {
+    "file": "tests/predict/test_predict.py",
+    "dependencies": [
+      "pydantic",
+      "DummyLM",
+      "copy",
+      "patch",
+      "Predict",
+      "dspy.utils.dummies",
+      "dspy",
+      "enum",
+      "unittest.mock",
+      "dspy.predict.predict",
+      "serialize_object",
+      "logging",
+      "asyncio",
+      "orjson",
+      "ModelResponse",
+      "datetime",
+      "time",
+      "Literal",
+      "litellm",
+      "typing",
+      "BaseModel",
+      "pytest",
+      "types"
+    ],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "failed"
+  },
+  {
+    "file": "tests/predict/test_rlm.py",
+    "dependencies": [
+      "json",
+      "ThreadPoolExecutor",
+      "MagicMock",
+      "DummyLM",
+      "Tool",
+      "re",
+      "concurrent.futures",
+      "pyfetch",
+      "contextmanager",
+      "dspy.utils.dummies",
+      "dspy",
+      "CodeInterpreterError",
+      "RLM",
+      "unittest.mock",
+      "Prediction",
+      "SandboxSerializable",
+      "Counter",
+      "dspy.primitives.sandbox_serializable",
+      "dspy.primitives.python_interpreter",
+      "dspy.primitives.repl_types",
+      "dspy.adapters.types.tool",
+      "dspy.predict.rlm",
+      "asyncio",
+      "tests.mock_interpreter",
+      "dspy.primitives.prediction",
+      "dspy.primitives.code_interpreter",
+      "pyodide.http",
+      "MockInterpreter",
+      "base64",
+      "PythonInterpreter",
+      "REPLEntry",
+      "pytest",
+      "collections",
+      "contextlib"
+    ],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "failed"
+  },
+  {
+    "file": "tests/predict/test_react.py",
+    "dependencies": [
+      "ContextWindowExceededError",
+      "dspy.utils.dummies",
+      "dspy",
+      "Image",
+      "dspy.adapters.utils",
+      "pydantic",
+      "DummyLM",
+      "BaseModel",
+      "re",
+      "dspy.utils.exceptions",
+      "dspy.adapters.base",
+      "PIL",
+      "pytest"
+    ],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "failed"
+  },
+  {
+    "file": "tests/predict/test_knn.py",
+    "dependencies": [
+      "dspy.predict",
+      "dspy",
+      "KNN",
+      "dspy.utils",
+      "numpy",
+      "pytest",
+      "DummyVectorizer"
+    ],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "failed"
+  },
+  {
+    "file": "tests/predict/test_refine.py",
+    "dependencies": [
+      "dspy.predict.predict",
+      "dspy.utils.dummies",
+      "dspy",
+      "DummyLM",
+      "dspy.predict.refine",
+      "Prediction",
+      "Predict",
+      "pytest",
+      "dspy.primitives.prediction",
+      "Refine"
+    ],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "failed"
+  },
+  {
+    "file": "tests/predict/test_best_of_n.py",
+    "dependencies": [
+      "dspy.predict.predict",
+      "dspy.utils.dummies",
+      "dspy",
+      "DummyLM",
+      "Prediction",
+      "Predict",
+      "pytest",
+      "dspy.predict.best_of_n",
+      "dspy.primitives.prediction",
+      "BestOfN"
+    ],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "failed"
+  },
+  {
+    "file": "tests/retrievers/test_embeddings.py",
+    "dependencies": [
+      "os",
+      "ThreadPoolExecutor",
+      "numpy",
+      "Embeddings",
+      "concurrent.futures",
+      "pytest",
+      "dspy.retrievers.embeddings",
+      "tempfile"
+    ],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "failed"
+  },
+  {
+    "file": "tests/retrievers/test_colbertv2.py",
+    "dependencies": [
+      "MagicMock",
+      "dspy.dsp.colbertv2",
+      "unittest.mock",
+      "pytest",
+      "colbertv2_get_request_v2"
+    ],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "failed"
+  },
+  {
+    "file": "tests/utils/__init__.py",
+    "dependencies": [],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "failed"
+  },
+  {
+    "file": "tests/utils/test_asyncify.py",
+    "dependencies": [
+      "get_limiter",
+      "sleep",
+      "dspy",
+      "time",
+      "math",
+      "asyncio",
+      "pytest",
+      "dspy.utils.asyncify"
+    ],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "failed"
+  },
+  {
+    "file": "tests/utils/test_usage_tracker.py",
+    "dependencies": [
+      "dspy",
+      "mock",
+      "UsageTracker",
+      "pydantic",
+      "BaseModel",
+      "unittest",
+      "dspy.utils.usage_tracker"
+    ],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "failed"
+  },
+  {
+    "file": "tests/utils/test_settings.py",
+    "dependencies": [
+      "the",
+      "dspy",
+      "mock",
+      "ThreadPoolExecutor",
+      "time",
+      "unittest",
+      "litellm",
+      "sys",
+      "Choices",
+      "asyncio",
+      "concurrent.futures",
+      "custom_module",
+      "pytest"
+    ],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "failed"
+  },
+  {
+    "file": "tests/utils/test_annotation.py",
+    "dependencies": [
+      "experimental",
+      "dspy.utils.annotation"
+    ],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "failed"
+  },
+  {
+    "file": "tests/utils/test_saving.py",
+    "dependencies": [
+      "dspy.utils.saving",
+      "dspy",
+      "logging",
+      "logger",
+      "DummyLM",
+      "dspy.utils",
+      "unittest.mock",
+      "patch",
+      "pytest",
+      "datetime"
+    ],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "failed"
+  },
+  {
+    "file": "tests/utils/test_langchain_tool.py",
+    "dependencies": [
+      "langchain_core.tools",
+      "pydantic",
+      "importlib",
+      "tool",
+      "BaseModel",
+      "convert_langchain_tool",
+      "pytest",
+      "dspy.utils.langchain_tool"
+    ],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "failed"
+  },
+  {
+    "file": "tests/utils/test_unbatchify.py",
+    "dependencies": [
+      "time",
+      "MagicMock",
+      "Future",
+      "unittest.mock",
+      "dspy.utils.unbatchify",
+      "concurrent.futures",
+      "Unbatchify"
+    ],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "failed"
+  },
+  {
+    "file": "tests/utils/test_mcp.py",
+    "dependencies": [
+      "mcp",
+      "ClientSession",
+      "mcp.client.stdio",
+      "dspy.utils.mcp",
+      "importlib",
+      "stdio_client",
+      "asyncio",
+      "pytest",
+      "convert_mcp_tool"
+    ],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "failed"
+  },
+  {
+    "file": "tests/utils/test_exceptions.py",
+    "dependencies": [
+      "AdapterParseError",
+      "dspy",
+      "dspy.utils.exceptions"
+    ],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "failed"
+  },
+  {
+    "file": "tests/utils/test_parallelizer.py",
+    "dependencies": [
+      "time",
+      "dspy.utils.parallelizer",
+      "ParallelExecutor",
+      "pytest",
+      "threading"
+    ],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "failed"
+  },
+  {
+    "file": "tests/utils/test_magicattr.py",
+    "dependencies": [
+      "magicattr",
+      "dspy.utils",
+      "pytest"
+    ],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "failed"
+  },
+  {
+    "file": "tests/utils/test_lazy_import.py",
+    "dependencies": [
+      "json",
+      "import",
+      "as",
+      "sys",
+      "importlib.util",
+      "dspy.utils.lazy_import",
+      "tomllib",
+      "pytest",
+      "tomli"
+    ],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "failed"
+  },
+  {
+    "file": "tests/utils/test_syncify.py",
+    "dependencies": [
+      "dspy",
+      "asyncio"
+    ],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "failed"
+  },
+  {
+    "file": "tests/utils/resources/mcp_server.py",
+    "dependencies": [
+      "FastMCP",
+      "pydantic",
+      "mcp.server.fastmcp",
+      "BaseModel"
+    ],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "failed"
+  }
+]
